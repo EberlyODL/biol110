@@ -1,0 +1,636 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en" dir="ltr" >
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+
+<script type="text/javascript">
+ /* <![CDATA[ */
+ if(top.frames.length > 0) top.location.href=self.location;
+ /* ]]> */
+</script>
+
+<link rel="prev" href="/courses/biol110/tutorial-22-energy-ii-cellular-respiration-glycolysis" />
+<link rel="up" href="/courses/biol110/week-6" />
+<link rel="next" href="/courses/biol110/tutorial-24-metabolic-regulation-and-endosymbiotic-theory" />
+<link rel="shortcut icon" href="/courses/biol110/sites/default/files/favicon.ico" type="image/x-icon" />
+  <title>Tutorial 23 - Energy III - Cellular Respiration (Krebs Cycle &amp; Electron Transport Chain) | BIOL 110</title>  
+  
+<style type="text/css" media="all">
+  @import "/courses/biol110/sites/all/modules/admin_menu/admin_menu.css?o";
+  @import "/courses/biol110/sites/all/modules/environment_indicator/environment_indicator.css?o";
+  @import "/courses/biol110/modules/aggregator/aggregator.css?o";
+  @import "/courses/biol110/modules/book/book.css?o";
+  @import "/courses/biol110/modules/node/node.css?o";
+  @import "/courses/biol110/modules/system/defaults.css?o";
+  @import "/courses/biol110/modules/system/system.css?o";
+  @import "/courses/biol110/modules/system/system-menus.css?o";
+  @import "/courses/biol110/modules/user/user.css?o";
+  @import "/courses/biol110/sites/all/modules/cck/theme/content-module.css?o";
+  @import "/courses/biol110/sites/all/modules/ctools/css/ctools.css?o";
+  @import "/courses/biol110/sites/all/modules/date/date.css?o";
+  @import "/courses/biol110/sites/all/modules/date/date_popup/themes/datepicker.css?o";
+  @import "/courses/biol110/sites/all/modules/date/date_popup/themes/jquery.timeentry.css?o";
+  @import "/courses/biol110/sites/all/modules/elms_media_helper/elms_media_helper.css?o";
+  @import "/courses/biol110/sites/all/modules/filefield/filefield.css?o";
+  @import "/courses/biol110/sites/all/modules/fivestar/css/fivestar.css?o";
+  @import "/courses/biol110/sites/all/modules/highslide/highslide/highslide.css?o";
+  @import "/courses/biol110/sites/all/modules/hovertip/hovertip.css?o";
+  @import "/courses/biol110/sites/all/modules/jtooltips/jtooltips.css?o";
+  @import "/courses/biol110/sites/all/modules/lightbox2/css/lightbox.css?o";
+  @import "/courses/biol110/sites/all/modules/panels/css/panels.css?o";
+  @import "/courses/biol110/sites/all/modules/site_branding/site_branding.css?o";
+  @import "/courses/biol110/sites/all/modules/tagadelic/tagadelic.css?o";
+  @import "/courses/biol110/sites/all/modules/wunderbar/wunderbar.css?o";
+  @import "/courses/biol110/modules/forum/forum.css?o";
+</style>
+<style type="text/css" media="all">
+  @import "/courses/biol110/sites/all/modules/extlink/extlink.css?o";
+  @import "/courses/biol110/sites/all/modules/biblio/biblio.css?o";
+  @import "/courses/biol110/sites/all/modules/cck/modules/fieldgroup/fieldgroup.css?o";
+  @import "/courses/biol110/sites/all/modules/views/css/views.css?o";
+  @import "/courses/biol110/sites/all/modules/context/plugins/context_reaction_block.css?o";
+  @import "/courses/biol110/sites/all/themes/FRNSCv9/style.css?o";
+</style>
+
+  <script type="text/javascript" src="/courses/biol110/sites/all/modules/jquery_update/replace/jquery.js?o"></script>
+<script type="text/javascript" src="/courses/biol110/misc/drupal.js?o"></script>
+<script type="text/javascript" defer="defer" src="/courses/biol110/sites/all/modules/admin_menu/admin_menu.js?o"></script>
+<script type="text/javascript" defer="defer" src="/courses/biol110/sites/all/modules/environment_indicator/environment_indicator.min.js?o"></script>
+<script type="text/javascript" src="/courses/biol110/sites/all/modules/fivestar/js/fivestar.js?o"></script>
+<script type="text/javascript" src="/courses/biol110/sites/all/modules/highslide/highslide/highslide-full.min.js?o"></script>
+<script type="text/javascript" src="/courses/biol110/sites/all/modules/highslide/highslide.js?o"></script>
+<script type="text/javascript" src="/courses/biol110/sites/all/modules/hovertip/hovertip.js?o"></script>
+<script type="text/javascript" src="/courses/biol110/sites/all/modules/jtooltips/js/jquery.tooltip.pack.js?o"></script>
+<script type="text/javascript" src="/courses/biol110/sites/all/modules/lightbox2/js/auto_image_handling.js?o"></script>
+<script type="text/javascript" src="/courses/biol110/sites/all/modules/lightbox2/js/lightbox.js?o"></script>
+<script type="text/javascript" src="/courses/biol110/sites/all/modules/panels/js/panels.js?o"></script>
+<script type="text/javascript" src="/courses/biol110/sites/all/modules/site_branding/script.js?o"></script>
+<script type="text/javascript" src="/courses/biol110/sites/all/modules/wunderbar/js/jquery.easing.1.3.js?o"></script>
+<script type="text/javascript" src="/courses/biol110/sites/all/modules/wunderbar/js/jquery.cookie.js.txt?o"></script>
+<script type="text/javascript" src="/courses/biol110/sites/all/modules/wunderbar/js/script.js?o"></script>
+<script type="text/javascript" src="/courses/biol110/sites/all/modules/extlink/extlink.js?o"></script>
+<script type="text/javascript" src="/courses/biol110/sites/all/libraries/jquery.ui/ui/ui.core.js?o"></script>
+<script type="text/javascript" src="/courses/biol110/sites/all/libraries/jquery.ui/ui/ui.draggable.js?o"></script>
+<script type="text/javascript" src="/courses/biol110/sites/all/libraries/jquery.ui/ui/ui.droppable.js?o"></script>
+<script type="text/javascript" src="/courses/biol110/sites/all/libraries/jquery.ui/ui/ui.sortable.js?o"></script>
+<script type="text/javascript" src="/courses/biol110/sites/all/modules/context/plugins/context_reaction_block.js?o"></script>
+<script type="text/javascript" src="/courses/biol110/sites/all/modules/ajax/jquery/jquery.a_form.packed.js?o"></script>
+<script type="text/javascript" src="/courses/biol110/sites/all/modules/ajax/ajax.js?o"></script>
+<script type="text/javascript" src="/courses/biol110/sites/all/themes/FRNSCv9/script.js?o"></script>
+<script type="text/javascript" src="/courses/biol110/sites/all/modules/ajax/plugins/thickbox/ajax_thickbox.js?o"></script>
+<script type="text/javascript" src="/courses/biol110/sites/all/modules/ajax/plugins/wysiwyg/ajax_wysiwyg.js?o"></script>
+<script type="text/javascript">
+<!--//--><![CDATA[//><!--
+jQuery.extend(Drupal.settings, { "basePath": "/courses/biol110/", "admin_menu": { "margin_top": 1, "tweak_tabs": 1 }, "apture": { "basePath": "/courses/biol110/" }, "environment_indicator": { "margin": 1, "position": "right", "text": "ELMS", "color": "#14598a" }, "fivestar": { "titleUser": "Your rating: ", "titleAverage": "Average: ", "feedbackSavingVote": "Saving your vote...", "feedbackVoteSaved": "Your vote has been saved.", "feedbackDeletingVote": "Deleting your vote...", "feedbackVoteDeleted": "Your vote has been deleted." }, "highslide": { "options": { "graphicsDir": "/courses/biol110/sites/all/modules/highslide/highslide/graphics/", "align": "center", "outlineType": "drop-shadow", "dimmingOpacity": 0.4, "dimmingDuration": 140 } }, "lightbox2": { "rtl": 0, "file_path": "/courses/biol110/(\\w\\w/)sites/edu.courses.biol110/files", "default_image": "/courses/biol110/sites/all/modules/lightbox2/images/brokenimage.jpg", "border_size": 10, "font_color": "000", "box_color": "fff", "top_position": "", "overlay_opacity": "0.8", "overlay_color": "000", "disable_close_click": true, "resize_sequence": 0, "resize_speed": 400, "fade_in_speed": 400, "slide_down_speed": 600, "use_alt_layout": false, "disable_resize": false, "disable_zoom": false, "force_show_nav": false, "show_caption": true, "loop_items": false, "node_link_text": "View Image Details", "node_link_target": false, "image_count": "Image !current of !total", "video_count": "Video !current of !total", "page_count": "Page !current of !total", "lite_press_x_close": "press \x3ca href=\"#\" onclick=\"hideLightbox(); return FALSE;\"\x3e\x3ckbd\x3ex\x3c/kbd\x3e\x3c/a\x3e to close", "download_link_text": "", "enable_login": false, "enable_contact": false, "keys_close": "c x 27", "keys_previous": "p 37", "keys_next": "n 39", "keys_zoom": "z", "keys_play_pause": "32", "display_image_size": "original", "image_node_sizes": "(\\.thumbnail)", "trigger_lightbox_classes": "img.inline,img.flickr-photo-img,img.flickr-photoset-img,img.ImageFrame_image,img.ImageFrame_none,img.image-img_assist_custom,img.thumbnail, img.image-thumbnail", "trigger_lightbox_group_classes": "", "trigger_slideshow_classes": "", "trigger_lightframe_classes": "", "trigger_lightframe_group_classes": "", "custom_class_handler": "lightbox_ungrouped", "custom_trigger_classes": "img.lightbox", "disable_for_gallery_lists": 1, "disable_for_acidfree_gallery_lists": true, "enable_acidfree_videos": true, "slideshow_interval": 5000, "slideshow_automatic_start": true, "slideshow_automatic_exit": true, "show_play_pause": true, "pause_on_next_click": false, "pause_on_previous_click": true, "loop_slides": false, "iframe_width": 600, "iframe_height": 400, "iframe_border": 1, "enable_video": false }, "extlink": { "extTarget": "_blank", "extClass": "ext", "extSubdomains": 1, "extExclude": "", "extInclude": "", "extAlert": 0, "extAlertText": "This link will take you to an external web site. We are not responsible for their content.", "mailtoClass": "mailto" } });
+//--><!]]>
+</script>
+<script type="text/javascript">
+<!--//--><![CDATA[//><!--
+
+    // initialize tooltips in a separate thread
+    $(document).ready(function() {
+      window.setTimeout(hovertipInit, 1);
+    });
+
+//--><!]]>
+</script>
+  <!--[if IE 6]><link rel="stylesheet" href="/courses/biol110/sites/all/themes/FRNSCv9/style.ie6.css" type="text/css" media="screen" /><![endif]-->  
+  <!--[if IE 7]><link rel="stylesheet" href="/courses/biol110/sites/all/themes/FRNSCv9/style.ie7.css" type="text/css" media="screen" /><![endif]-->
+  <script type="text/javascript"> </script>
+</head>
+
+<body class="not-front logged-in page-node node-type-page no-sidebars">
+
+<div id="art-main">
+<div class="art-sheet">
+    <div class="art-sheet-tl"></div>
+    <div class="art-sheet-tr"></div>
+    <div class="art-sheet-bl"></div>
+    <div class="art-sheet-br"></div>
+    <div class="art-sheet-tc"></div>
+    <div class="art-sheet-bc"></div>
+    <div class="art-sheet-cl"></div>
+    <div class="art-sheet-cr"></div>
+    <div class="art-sheet-cc"></div>
+    <div class="art-sheet-body">
+<div class="art-header">
+    <div class="art-header-clip">
+    <div class="art-header-center">
+        <div class="art-header-jpeg"></div>
+    </div>
+    </div>
+<div class="art-headerobject"></div>
+<div class="art-logo">
+     <h1 class="art-logo-name"><a href="/courses/biol110/" title = "BIOL 110">BIOL 110</a></h1>     <h2 class="art-logo-text">Biology: Basic Concepts and Biodiversity</h2></div>
+
+</div>
+<div class="cleared reset-box"></div>
+<div class="art-nav">
+    <div class="art-nav-l"></div>
+    <div class="art-nav-r"></div>
+<div class="art-nav-outer">
+        <div class="art-hmenu-extra1">  <a class='context-block-region' id='context-block-region-extra1'>Extra 1</a>
+  </div>
+              <a class='context-block-region' id='context-block-region-navigation'>Menu</a>
+      
+<div id="art-hmenu-id"><ul class="art-hmenu"><li class="leaf first"><a href="/courses/biol110/academic-calendar" title="Academic Calendar"><span class="l"></span><span class="r"></span><span class="t">Academic Calendar</span></a></li>
+<li class="collapsed"><a href="/courses/biol110/integrity" title="Integrity"><span class="l"></span><span class="r"></span><span class="t">Integrity</span></a></li>
+<li class="leaf"><a href="/courses/biol110/office-hours" title="Office Hours"><span class="l"></span><span class="r"></span><span class="t">Office Hours</span></a></li>
+<li class="collapsed"><a href="/courses/biol110/resources" title="Resources"><span class="l"></span><span class="r"></span><span class="t">Resources</span></a></li>
+<li class="collapsed"><a href="/courses/biol110/lab-modules" title="Lab Modules"><span class="l"></span><span class="r"></span><span class="t">Lab Modules</span></a></li>
+<li class="leaf"><a href="https://cms.psu.edu/default.asp" title="Link to ANGEL"><span class="l"></span><span class="r"></span><span class="t">ANGEL</span></a></li>
+<li class="leaf last"><a href="/courses/biol110/help" title="Help!"><span class="l"></span><span class="r"></span><span class="t">Help!</span></a></li>
+</ul></div>
+              <div class="art-hmenu-extra2">  <a class='context-block-region' id='context-block-region-extra2'>Extra 2</a>
+  </div>
+    </div>
+</div>
+<div class="cleared reset-box"></div>
+<div id="banner1">  <a class='context-block-region' id='context-block-region-banner1'>Banner 1</a>
+  </div>      <table class="position" cellpadding="0" cellspacing="0" border="0">
+        <tr valign="top">
+          <td class="third-width">  <a class='context-block-region' id='context-block-region-top1'>Top 1</a>
+  </td>
+          <td class="third-width">  <a class='context-block-region' id='context-block-region-top2'>Top 2</a>
+  </td>
+          <td>  <a class='context-block-region' id='context-block-region-top3'>Top 3</a>
+  </td>
+        </tr>
+      </table><div class="art-content-layout">
+    <div class="art-content-layout-row">
+<div class="art-layout-cell art-sidebar1"><div class="art-layout-glare"><div class="art-layout-glare-image"></div></div>  <a class='context-block-region' id='context-block-region-vnavigation_left'>Left vertical menu</a>
+    <a class='context-block-region' id='context-block-region-sidebar_left'>Left sidebar</a>
+      <div class="clear-block block block-menu" id="block-menu-menu-lessons">
+<div class="art-block">
+      <div class="art-block-body">
+  
+    
+
+	    			
+			<div class="art-blockheader">
+				    <div class="l"></div>
+				    <div class="r"></div>
+				    <h3 class="t subject">
+						
+			Lessons			
+			</h3>
+				</div>
+				
+			
+	    
+
+	<div class="art-blockcontent">
+		    <div class="art-blockcontent-body">
+		<div class="content">
+		
+			
+<ul class="menu"><li class="collapsed first"><a href="/courses/biol110/week-1" title="Week 1">Week 1</a></li>
+<li class="collapsed"><a href="/courses/biol110/week-2" title="Week 2">Week 2</a></li>
+<li class="collapsed"><a href="/courses/biol110/week-3" title="Week 3">Week 3</a></li>
+<li class="collapsed"><a href="/courses/biol110/week-4" title="Week 4">Week 4</a></li>
+<li class="collapsed"><a href="/courses/biol110/week-5" title="Week 5">Week 5</a></li>
+<li class="expanded active-trail"><a href="/courses/biol110/week-6" title="Week 6">Week 6</a><ul class="menu"><li class="leaf first"><a href="/courses/biol110/tutorial-21-energy-i-%E2%80%93-thermodynamics" title="Tutorial 21 - Energy I – Thermodynamics">Energy I – Thermodynamics</a></li>
+<li class="leaf"><a href="/courses/biol110/tutorial-22-energy-ii-cellular-respiration-glycolysis" title="Tutorial 22 - Energy II - Cellular Respiration (Glycolysis)">Energy II - Cellular Respiration (Glycolysis)</a></li>
+<li class="leaf active-trail"><a href="/courses/biol110/tutorial-23-energy-iii-cellular-respiration-krebs-cycle-electron-transport-chain" title="Tutorial 23 - Energy III - Cellular Respiration (Krebs Cycle &amp; Electron Transport Chain)" class="active">Energy III - Cellular Respiration</a></li>
+<li class="leaf"><a href="/courses/biol110/tutorial-24-metabolic-regulation-and-endosymbiotic-theory" title="Tutorial 24 - Metabolic Regulation and the Endosymbiotic Theory">Metabolic Regulation and the Endosymbiotic Theory</a></li>
+<li class="leaf last"><a href="/courses/biol110/tutorial-26-subcellular-specialization" title="Tutorial 26 - Subcellular Specialization">Subcellular Specialization</a></li>
+</ul></li>
+<li class="collapsed"><a href="/courses/biol110/week-7" title="Week 7">Week 7</a></li>
+<li class="collapsed"><a href="/courses/biol110/week-8" title="Week 8">Week 8</a></li>
+<li class="collapsed last"><a href="/courses/biol110/week-9" title="Week 9">Week 9</a></li>
+</ul>
+	
+		</div>
+				<div class="cleared"></div>
+		    </div>
+		</div>
+		
+
+				<div class="cleared"></div>
+		    </div>
+		</div>
+		
+	</div>      <div class="clear-block block block-user" id="block-user-1">
+<div class="art-block">
+      <div class="art-block-body">
+  
+    
+
+	    			
+			<div class="art-blockheader">
+				    <div class="l"></div>
+				    <div class="r"></div>
+				    <h3 class="t subject">
+						
+			Carly Dreibelbis			
+			</h3>
+				</div>
+				
+			
+	    
+
+	<div class="art-blockcontent">
+		    <div class="art-blockcontent-body">
+		<div class="content">
+		
+			
+<ul class="menu"><li class="collapsed first"><a href="/courses/biol110/node/add">Create content</a></li>
+<li class="leaf"><a href="/courses/biol110/profile">User list</a></li>
+<li class="collapsed"><a href="/courses/biol110/blog">Blogs</a></li>
+<li class="leaf"><a href="/courses/biol110/colorpicker/example" title="An example of the color picker in use.">Color Picker Example</a></li>
+<li class="collapsed"><a href="/courses/biol110/network_manager" title="Control display for your Network">Network Management</a></li>
+<li class="leaf"><a href="/courses/biol110/tagadelic">Tags</a></li>
+<li class="collapsed"><a href="/courses/biol110/testbox">Test Homebox</a></li>
+<li class="leaf"><a href="/courses/biol110/users/carly-dreibelbis">My account</a></li>
+<li class="leaf"><a href="/courses/biol110/logout">logout</a></li>
+<li class="collapsed"><a href="/courses/biol110/biblio">Biblio</a></li>
+<li class="leaf"><a href="/courses/biol110/course-description-0" title="Course Description">Course Description</a></li>
+<li class="collapsed last"><a href="/courses/biol110/admin">Administer</a></li>
+</ul>
+	
+		</div>
+				<div class="cleared"></div>
+		    </div>
+		</div>
+		
+
+				<div class="cleared"></div>
+		    </div>
+		</div>
+		
+	</div>      <div class="clear-block block block-menu" id="block-menu-menu-start-here">
+<div class="art-block">
+      <div class="art-block-body">
+  
+    
+
+	    			
+			<div class="art-blockheader">
+				    <div class="l"></div>
+				    <div class="r"></div>
+				    <h3 class="t subject">
+						
+			Start Here			
+			</h3>
+				</div>
+				
+			
+	    
+
+	<div class="art-blockcontent">
+		    <div class="art-blockcontent-body">
+		<div class="content">
+		
+			
+<ul class="menu"><li class="leaf first"><a href="/courses/biol110/meet-your-instructor" title="Meet Your Instructor">Meet Your Instructor</a></li>
+<li class="collapsed"><a href="/courses/biol110/orientation-0" title="Orientation">Orientation</a></li>
+<li class="collapsed last"><a href="/courses/biol110/syllabus-0" title="Syllabus">Syllabus</a></li>
+</ul>
+	
+		</div>
+				<div class="cleared"></div>
+		    </div>
+		</div>
+		
+
+				<div class="cleared"></div>
+		    </div>
+		</div>
+		
+	</div>  </div><div class="art-layout-cell art-content"><div id="banner2">  <a class='context-block-region' id='context-block-region-banner2'>Banner 2</a>
+  </div><table class="position" cellpadding="0" cellspacing="0" border="0">
+<tr valign="top"><td class="half-width">  <a class='context-block-region' id='context-block-region-user1'>User 1</a>
+  </td>
+<td>  <a class='context-block-region' id='context-block-region-user2'>User 2</a>
+  </td></tr>
+</table>
+<div id="banner3">  <a class='context-block-region' id='context-block-region-banner3'>Banner 3</a>
+  </div>              
+<div class="art-post">
+    <div class="art-post-tl"></div>
+    <div class="art-post-tr"></div>
+    <div class="art-post-bl"></div>
+    <div class="art-post-br"></div>
+    <div class="art-post-tc"></div>
+    <div class="art-post-bc"></div>
+    <div class="art-post-cl"></div>
+    <div class="art-post-cr"></div>
+    <div class="art-post-cc"></div>
+    <div class="art-post-body">
+<div class="art-post-inner art-article">
+<div class="art-postcontent">
+<ul class="arttabs_primary"><li><span class="active art-button-wrapper"><span class="art-button-l"></span><span class="art-button-r"></span><a href="/courses/biol110/tutorial-23-energy-iii-cellular-respiration-krebs-cycle-electron-transport-chain" class="active art-button">View</a></span></li><li><span class="art-button-wrapper"><span class="art-button-l"></span><span class="art-button-r"></span><a href="/courses/biol110/node/24/edit" class="art-button">Edit</a></span></li><li><span class="art-button-wrapper"><span class="art-button-l"></span><span class="art-button-r"></span><a href="/courses/biol110/node/24/outline" class="art-button">Outline</a></span></li><li><span class="art-button-wrapper"><span class="art-button-l"></span><span class="art-button-r"></span><a href="/courses/biol110/node/24/revisions" class="art-button">Revisions</a></span></li><li><span class="art-button-wrapper"><span class="art-button-l"></span><span class="art-button-r"></span><a href="/courses/biol110/node/24/track" class="art-button">Track</a></span></li><li><span class="art-button-wrapper"><span class="art-button-l"></span><span class="art-button-r"></span><a href="/courses/biol110/node/24/access" class="art-button">Access control</a></span></li><li><span class="art-button-wrapper"><span class="art-button-l"></span><span class="art-button-r"></span><a href="/courses/biol110/node/24/node_export" class="art-button">Node export</a></span></li><li><span class="art-button-wrapper"><span class="art-button-l"></span><span class="art-button-r"></span><a href="/courses/biol110/node/24/rearrange" class="art-button">Rearrange</a></span></li></ul><div class="cleared"></div>
+</div>
+<div class="cleared"></div>
+
+</div>
+
+		<div class="cleared"></div>
+    </div>
+</div>
+                                <div id="node-24" >
+<div class="art-post">
+    <div class="art-post-tl"></div>
+    <div class="art-post-tr"></div>
+    <div class="art-post-bl"></div>
+    <div class="art-post-br"></div>
+    <div class="art-post-tc"></div>
+    <div class="art-post-bc"></div>
+    <div class="art-post-cl"></div>
+    <div class="art-post-cr"></div>
+    <div class="art-post-cc"></div>
+    <div class="art-post-body">
+<div class="art-post-inner art-article">
+<div class="art-postmetadataheader">
+<h2 class="art-postheader">Tutorial 23 - Energy III - Cellular Respiration (Krebs Cycle &amp; Electron Transport Chain)</h2>
+
+</div>
+<div class="art-postcontent">
+<div class="art-article"><h1>Terms</h1>
+<p>You should have a working knowledge of the following terms:</p>
+<table>
+<tbody>
+<tr>
+<td>
+<ul>
+<li>anaerobic respiration</li>
+<li>ATP synthase</li>
+<li>charge differential (voltage)</li>
+<li>chemiosmosis</li>
+<li>electron transport chain</li>
+<li>FAD, FADH2</li>
+<li>Krebs cycle</li>
+<li>mitochondrial matrix</li>
+<li>mitochondrion</li>
+<li>oxidative phosphorylation</li>
+<li>proton</li>
+<li>terminal electron acceptor</li>
+</ul>
+</td>
+</tr>
+</tbody>
+</table>
+<h1>&nbsp;</h1>
+<h1>Introduction and Goals</h1>
+<p>The previous tutorial concentrated on the first stages of cellular respiration (i.e., glycolysis). You should know that glycolysis produces pyruvate and some ATP. The pyruvate can be used in fermentation, but it can also be used in another manner. There are many high-energy electrons left in pyruvate. Next, you will learn how cells complete cellular respiration by oxidizing pyruvate to form carbon dioxide. You will also learn that these electrons are conveyed to an electron transport chain where they can participate in the synthesis of ATP. By the end of this tutorial you should have a basic understanding of:</p>
+<ul>
+<li>The Krebs cycle</li>
+<li>The electron transport chain</li>
+<li>Chemiosmosis</li>
+<li>The energy balance of cellular respiration</li>
+</ul>
+<h1>&nbsp;</h1>
+<h1>The Krebs Cycle</h1>
+<p>Recall, glycolysis results in a net gain of 2 ATP and 2 NADH molecules from one molecule of glucose. Keep in mind, this gain represents an effective transfer of 20 kcal of energy to ATP (about 10 kcal each) and about 80 kcal of energy to NADH (about 40 kcal each), for a total of about 100 kcal. The complete oxidation of glucose results in the release of 684 kcal of energy, therefore, there is a good amount of energy still remaining in pyruvate.</p>
+<p><a class="lightbox" href="/courses/biol110/sites/edu.courses.biol110/files/images/Tutorial23_Krebs_cycle.jpg" id="Figure 1.  The Krebs Cycle." title="Figure 1.  The Krebs Cycle."><img alt="Figure 1.  The Krebs Cycle." class="lightbox" src="/courses/biol110/sites/edu.courses.biol110/files/images/Tutorial23_Krebs_cycle.jpg" style="float: right; width: 300px; height: 302px; margin: 10px;" title="Figure 1.  The Krebs Cycle."></a>In eukaryotes, pyruvate is transported across the mitochondrial membrane and then converted to acetyl CoA (with the production of NADH and carbon dioxide). Acetyl CoA is then oxidized by a series of enzymes that make up a cyclical series of reactions known as the Krebs cycle (some textbooks refer to this as the citric acid cycle). During the <strong>Krebs cycle</strong>, electrons are removed from acetyl CoA and these electrons reduce more NAD+, along with another electron carrier, <strong>FAD</strong>. The ATP that is produced is generated via substrate-level phosphorylation, just as it was in glycolysis. Each NADH and FADH2 molecule that is formed is an important source of energy that will be used to generate ATP.</p>
+<p>&nbsp;<a class="lightbox" href="/courses/biol110/sites/edu.courses.biol110/files/images/Tutorial23_Krebs_overview.jpg" id="Figure 2.  An overview of the Krebs Cycle." title="Figure 2.  An overview of the Krebs Cycle."><img alt="Figure 2.  An overview of the Krebs Cycle." class="lightbox" src="/courses/biol110/sites/edu.courses.biol110/files/images/Tutorial23_Krebs_overview.jpg" style="float: left; width: 300px; height: 204px; margin: 10px;" title="Figure 2.  An overview of the Krebs Cycle."></a>While you will not be required to memorize all of the intermediates (e.g., isocitrate, fumarate, etc.) and enzymes involved in the Krebs cycle, this figure demonstrates the overall reactions that result in the complete oxidation of acetyl CoA. You can also see where carbon dioxide is released as a by-product and where electron carriers are reduced to form NADH and FADH2. Also note that the ATP formed results from the direct transfer of a phosphate from a substrate (substrate-level phosphorylation).</p>
+<p>&nbsp;This figure provides a good summary of the Krebs cycle, illustrating the main reactants (acetyl CoA, NAD+, FAD, ADP, and inorganic phosphate) and products (carbon dioxide, NADH, FADH<sub>2</sub>, and ATP) from what is actually a multistep process.</p>
+<h1>&nbsp;</h1>
+<h1>The Role of NADH and FADH2</h1>
+<p>Glucose catabolism ends during the Krebs cycle. This does not mean that all of the energy previously contained in glucose was used in the production of ATP. In fact, only one additional ATP molecule (per molecule of pyruvate) is produced by substrate-level phosphorylation in the Krebs cycle. The balance of extracted energy is tied up in NADH and FADH2.</p>
+<p>In the next phase of cellular respiration, the high-energy electrons within NADH and FADH2 will be passed to a set of membrane-bound enzymes in the <strong>mitochondrion</strong>, collectively referred to as the <strong>electron transport chain</strong>. These electrons will provide energy to do work. Specifically, this work will involve the movement of positively charged hydrogen atoms (H+), also known as <strong>protons</strong>.</p>
+<p>The movement of protons across the inner mitrochondrial membrane (by the electron transport chain) creates a <strong>charge differential (voltage)</strong> that will be used to synthesize ATP. Mitochondrion structure and the origin of mitochondria will be discussed in more detail in Tutorial 24.</p>
+<p><img src="http://c.gigcount.com/wildfire/IMP/CXNID=2000002.0NXC/bT*xJmx*PTEzMDk1NTEyMzYxOTQmcHQ9MTMwOTU1MjczMzMxMiZwPTIwNjQyMSZkPWIyMTM1ODg5Jmc9MiZvPTk2NjhhNGRlZDA4/NDRmNzlhYTY1ZTI4N2RlOTA2Y2E4Jm9mPTA=.gif" style="visibility:hidden;width:0px;height:0px;" border="0" height="0" width="0"></p>
+<object height="480" width="640"><param name="movie" value="http://psu.voicethread.com/book.swf?b=2135889"><param name="wmode" value="transparent"><embed src="http://psu.voicethread.com/book.swf?b=2135889" type="application/x-shockwave-flash" wmode="transparent" height="480" width="640"></object></p>
+<h1>The Electron Transport Chain</h1>
+<p>NADH and FADH2 convey their electrons to the electron transport chain. This transport chain is composed of a number of molecules (mostly proteins) that are located in the inner membrane of the mitochondrion. <a class="lightbox" href="/courses/biol110/sites/edu.courses.biol110/files/images/Tutorial23_redox.jpg" id="Figure 3. The Electron Transport Chain and Free Energy Change." title="Figure 3. The Electron Transport Chain and Free Energy Change."><img alt="Figure 3. The Electron Transport Chain and Free Energy Change." class="lightbox" src="/courses/biol110/sites/edu.courses.biol110/files/images/Tutorial23_redox.jpg" style="float: right; width: 300px; height: 345px; margin: 10px;" title="Figure 3. The Electron Transport Chain and Free Energy Change."></a>Each membrane protein has a particular electronegativity (affinity for electrons). The more electronegative the molecule, the more energy required to keep the electron away from it. In this way, a slightly electronegative membrane protein will pull electrons away from reduced electron carriers. In the presence of an even-more electronegative molecule, these electrons will be oxidized from the first membrane protein, and so on. Finally the electrons reduce oxygen, and along with the addition of hydrogen ions, water is produced as a waste product. This stepwise movement, whereby an electron from one protein is transferred to another in the chain, is also reflective of the overall decrease in the amount of energy that the electron possesses. Importantly, each step has a negative delta G. Therefore with each oxidation/reduction reaction, energy is made available to do work. This work involves the movement of protons.</p>
+<p>&nbsp;Oxygen is one of the most electronegative atoms. This is important because the relative change in electronegativity determines how much energy is available to do work. When oxygen acts as the <strong>terminal electron acceptor</strong>, there is a maximal amount of free energy released; hence, more protons can be transported, which means that a greater charge buildup occurs across the inner mitochondria membrane. This figure illustrates the energetic relationship between various members of the electron transport chain when oxygen serves as the electron acceptor.</p>
+<h1>Chemiosmosis</h1>
+<p>During the movement of electrons through the electron transport chain, protons accumulate on the inside of the inner mitochondrial membrane. As electrons move from one member of the electron transport chain to the next, protons are transported from one side of the membrane to the other, resulting in a buildup of protons in the intermembrane space. <a class="lightbox" href="/courses/biol110/sites/edu.courses.biol110/files/images/Tutorial23_electron_transport.jpg" id="Figure 4. An Overview of Electron Transport and Oxidative Phosphorylation." title="Figure 4. An Overview of Electron Transport and Oxidative Phosphorylation."><img alt="Figure 4. An Overview of Electron Transport and Oxidative Phosphorylation." class="lightbox" src="/courses/biol110/sites/edu.courses.biol110/files/images/Tutorial23_electron_transport.jpg" style="float: right; width: 300px; height: 182px; margin: 10px;" title="Figure 4. An Overview of Electron Transport and Oxidative Phosphorylation."></a>This creates a charge differential (voltage) across the inner membrane; it is this stored energy that is actually used to synthesize ATP.</p>
+<p>As these excess protons from the intermembrane space flow back into the <strong>mitochondrial matrix</strong> (the part of the mitochondrion enclosed within the inner membrane, which houses the enzymes and substrates for the Krebs cycle), ADP is phosphorylated to make ATP (<strong>chemiosmosis</strong>). Chemiosmosis is accomplished in the presence of the protein complex <strong>ATP synthase</strong>, which is also located in the inner mitochondrial membrane.</p>
+<p>Note how the transfer of electrons provides the energy to move protons across the inner mitochondrial membrane. This buildup of protons in the intermembrane space creates a charge differential (voltage), and this stored energy is then used to drive the ATP synthase complex to affect the production of ATP.</p>
+<h1>&nbsp;</h1>
+<h1>Oxidative Phosphorylation and ATP Yield</h1>
+<p><a class="lightbox" href="/courses/biol110/sites/edu.courses.biol110/files/images/Tutorial23_respiration_overview.jpg" id="Figure 5. An Overview of Cellular Respiration." title="Figure 5. An Overview of Cellular Respiration."><img alt="Figure 5. An Overview of Cellular Respiration." class="lightbox" src="/courses/biol110/sites/edu.courses.biol110/files/images/Tutorial23_respiration_overview.jpg" style="float: right; width: 300px; height: 204px; margin: 10px;" title="Figure 5. An Overview of Cellular Respiration."></a>Recall, substrate-level phosphorylation was introduced in Tutorial 22. The generation of ATP from chemiosmosis is referred to as <strong>oxidative phosphorylation</strong> because oxygen's oxidative property allows a large amount of free energy to be made available for ATP synthesis.</p>
+<p>&nbsp;This figure emphasizes several important concepts about cellular respiration. First, note the locations of glycolysis, the Krebs cycle, and the electron transport chain and oxidative phosphorylation. Second, note how the electron carriers transport electrons to the transport chain, and the net amount of ATP generated at each step. In particular, compare the amount of ATP generated by oxidative phosphorylation to the amount generated by substrate-level phosphorylation. The maximum net yield of 38 ATPs per molecule of glucose is merely an estimate. Much of the energy bound in a molecule of glucose is actually lost as heat during metabolism. While this heat is actually a waste product, homeotherms ("warm-blooded" animals) capitalize on this waste and use it to maintain constant body temperatures.</p>
+<p><img src="http://c.gigcount.com/wildfire/IMP/CXNID=2000002.0NXC/bT*xJmx*PTEzMDk1NTI3OTA2OTMmcHQ9MTMwOTU1Mjc5MzE2NSZwPTIwNjQyMSZkPWIyMTM1ODkzJmc9MiZvPTk2NjhhNGRlZDA4/NDRmNzlhYTY1ZTI4N2RlOTA2Y2E4Jm9mPTA=.gif" style="visibility:hidden;width:0px;height:0px;" border="0" height="0" width="0"></p>
+<object height="480" width="640"><param name="movie" value="http://psu.voicethread.com/book.swf?b=2135893"><param name="wmode" value="transparent"><embed src="http://psu.voicethread.com/book.swf?b=2135893" type="application/x-shockwave-flash" wmode="transparent" height="480" width="640"></object></p>
+<h1>Summary</h1>
+<p>This tutorial focused on the final steps of cellular respiration. Recall that at the end of glycolysis there is a net production of two molecules of ATP and two molecules of NADH. The ATP is produced via substrate-level phosphorylation; in this reaction, a phosphate group on an organic molecule is transferred directly (along with high-energy electrons) onto a molecule of ADP. Substrate-level phosphorylation also occurs once during the Krebs cycle.</p>
+<p>For those organisms that completely oxidize glucose, the end product of glycolysis (pyruvate) is further oxidized by enzymes associated with the Krebs cycle (also known as the citric acid cycle and the tricarboxylic acid cycle or TCA cycle). In eukaryotes, the enzymes associated with the Krebs cycle are found in the mitochondria. Pyruvate moves into the mitochondria via specific carrier proteins located in the mitochondrial membranes (in prokaryotes, the Krebs cycle enzymes typically are not compartmentalized but are located in the same compartment as the glycolytic enzymes). Pyruvate is converted to acetyl CoA (accompanied by the evolution of CO2 and one molecule of NADH). The acetyl CoA then enters the Krebs cycle. Within the cell, the Krebs cycle organic acids are not arranged in a circle nor is there any circular arrangement of the enzymes. This pathway is termed a "cycle" (and diagrammed as a circle) because the end product becomes the first product after reacting with acetyl CoA. Acetyl CoA is not the only way that reduced carbon can enter the Krebs cycle. For example, the degradation products of some amino acids enter the Krebs cycle as organic acids (e.g., phenylalanine is converted to fumarate).<br><br />
+	For every molecule of acetyl CoA that enters the cycle, there is a net gain of three molecules of NADH, one molecule of FADH2 (a chemical relative of NADH), and one molecule of ATP (the ATP is produced via substrate-level phosphorylation). Two molecules of CO2 are produced as a by-product. As with glycolysis, there is only a marginal gain of ATP; the majority of energy is tied up in the NADH and FADH2 molecules. How is this energy liberated? To answer this we need to consider the work that is done by NADH and FADH2.</p>
+<p>The high-energy carriers NADH and FADH2 can themselves be oxidized by the electron transport chain. During oxidation, energy is lost by the oxidized molecule while energy is gained by the reduced molecule. The electron transport chain is composed of a series of molecules that alternatively become oxidized and reduced by one another. As these redox reactions occur, free energy is made available to do work, and that work is the movement of charged hydrogen atoms (protons) across a membrane. The electron transport chain is mostly contained within the membrane, and energetically, the electrons that pass from one molecule to the next have decreasing potential energies. The last molecule that is reduced is oxygen, which results in the generation of water. Some bacteria can use other molecules (e.g., nitrate, sulfate, or organic acids) as terminal electron acceptors, and hence can undergo cellular respiration under anaerobic conditions.</p>
+<p>So how is ATP produced? During the movement of electrons down the electron transport chain, protons accumulate on the other side of the inner mitochondrial membrane; mitochondria have a double membrane. The accumulation of charged ions, separated by a nonconductive membrane, creates a voltage. In other words, the mitochondrion can be thought of as a battery that is charged by the electron transport chain. Also existing within the inner membrane is a complex known as the ATP synthase complex. This complex acts as a channel in which protons flow back into the mitochondrion. As these protons move back into the mitochondria, free energy is released as the charge differential decreases; the resulting energy is used to synthesize ATP. In other words, the electron transport chain charges the battery, and the ATP synthase discharges it and uses the energy to produce ATP.</p>
+  <div id="book-navigation-149" class="book-navigation">
+    
+        <div class="page-links clear-block">
+              <a href="/courses/biol110/tutorial-22-energy-ii-cellular-respiration-glycolysis" class="page-previous" title="Go to previous page">‹ Tutorial 22 - Energy II - Cellular Respiration (Glycolysis)</a>
+                    <a href="/courses/biol110/week-6" class="page-up" title="Go to parent page">up</a>
+                    <a href="/courses/biol110/tutorial-24-metabolic-regulation-and-endosymbiotic-theory" class="page-next" title="Go to next page">Tutorial 24 - Metabolic Regulation and the Endosymbiotic Theory ›</a>
+          </div>
+    
+  </div>
+</div>
+
+</div>
+<div class="cleared"></div>
+<div class="art-postmetadatafooter">
+<div class="art-postfootericons art-metadata-icons">
+        <img class="art-metadata-icon" src="/courses/biol110/sites/all/themes/FRNSCv9/images/postcategoryicon.png" width="18" height="18" alt="" /> <a href="/courses/biol110/node/add/page?parent=8259" class="book_add_child">Add child page</a>&nbsp|&nbsp        <img class="art-metadata-icon" src="/courses/biol110/sites/all/themes/FRNSCv9/images/postcategoryicon.png" width="18" height="18" alt="" /> <a href="/courses/biol110/print/book/export/html/24" title="Display a printer-friendly version of this page." class="print-page book_printer" rel="nofollow">Printer-friendly version</a>&nbsp|&nbsp        <img class="art-metadata-icon" src="/courses/biol110/sites/all/themes/FRNSCv9/images/postcategoryicon.png" width="18" height="18" alt="" /> 61 reads&nbsp;|&nbsp;  <img class="art-metadata-icon" src="/courses/biol110/sites/all/themes/FRNSCv9/images/posttagicon.png" width="18" height="18" alt="" /> Tags: 
+</div>
+
+</div>
+
+</div>
+
+		<div class="cleared"></div>
+    </div>
+</div>
+
+</div>  <a class='context-block-region' id='context-block-region-content'>Content</a>
+  <div id="banner4">  <a class='context-block-region' id='context-block-region-banner4'>Banner 4</a>
+  </div><table class="position" cellpadding="0" cellspacing="0" border="0">
+<tr valign="top"><td class="half-width">  <a class='context-block-region' id='context-block-region-user3'>User 3</a>
+  </td>
+<td>  <a class='context-block-region' id='context-block-region-user4'>User 4</a>
+  </td></tr>
+</table>
+<div id="banner5">  <a class='context-block-region' id='context-block-region-banner5'>Banner 5</a>
+  </div></div>
+
+    </div>
+</div>
+<div class="cleared"></div>
+
+      <table class="position" cellpadding="0" cellspacing="0" border="0">
+        <tr valign="top">
+          <td class="third-width">  <a class='context-block-region' id='context-block-region-bottom1'>Bottom 1</a>
+  </td>
+          <td class="third-width">  <a class='context-block-region' id='context-block-region-bottom2'>Bottom 2</a>
+  </td>
+          <td>  <a class='context-block-region' id='context-block-region-bottom3'>Bottom 3</a>
+  </td>
+        </tr>
+      </table><div id="banner6">  <a class='context-block-region' id='context-block-region-banner6'>Banner 6</a>
+  </div><div class="art-footer">
+    <div class="art-footer-t"></div>
+    <div class="art-footer-body">
+        <a href="/courses/biol110/rss.xml" class="art-rss-tag-icon"></a>                <div class="art-footer-text">
+                        © Copyright 2011 <a href="http://science.psu.edu/" target="_blank" class="style1">The Eberly College of Science</a> and its licensors. All rights reserved. <a href="http://www.psu.edu/" target="_blank"><br />
+Penn State</a> is an Equal Opportunity Employer.<br />
+Course Developed by <a href="http://eberlyscienceonline.psu.edu/" target="_blank">Eberly College of Science Online Education</a>                  <a class='context-block-region' id='context-block-region-copyright'>Copyright</a>
+                  </div>
+		<div class="cleared"></div>
+    </div>
+</div>
+		<div class="cleared"></div>
+    </div>
+</div>
+<div class="cleared"></div>
+<p class="art-page-footer">Designed by Tess Crossen.</p>
+
+</div>
+
+
+<div id="admin-menu">
+<ul><li class="expandable admin-menu-icon"><a href="/courses/biol110/"><img class="admin-menu-icon" src="/courses/biol110/sites/default/files/favicon.ico" width="16" height="16" alt="Home" /></a>
+<ul><li class="expandable"><a href="/courses/biol110/admin_menu/flush-cache?destination=node%2F24&amp;token=7545ccb20542feb2bcb07ead72e41bd6">Flush all caches</a>
+<ul><li><a href="/courses/biol110/admin_menu/flush-cache/admin_menu?destination=node%2F24&amp;token=b073bc62f900c822e75a7d2cafe55e12">Administration menu</a></li><li><a href="/courses/biol110/admin_menu/flush-cache/cache?destination=node%2F24&amp;token=bb2c58a467de49c2ee8d8b09d167d7e4">Cache tables</a></li><li><a href="/courses/biol110/admin_menu/flush-cache/menu?destination=node%2F24&amp;token=34c1d70bf78154f7735a929a17402e27">Menu</a></li><li><a href="/courses/biol110/admin_menu/flush-cache/requisites?destination=node%2F24&amp;token=a505e5daabe5df90a939ef20f62cc424">Page requisites</a></li><li><a href="/courses/biol110/admin_menu/flush-cache/theme?destination=node%2F24&amp;token=2082d4fb6565a4ef844e13e377292384">Theme registry</a></li></ul></li><li><a href="/courses/biol110/admin/reports/status/run-cron">Run cron</a></li><li><a href="/courses/biol110/admin_menu/toggle-modules?destination=node%2F24&amp;token=a99318ef34f9405bca4f7de5a913e104">Disable developer modules</a></li><li class="expandable"><a href="http://drupal.org">Drupal.org</a>
+<ul><li><a href="http://drupal.org/project/issues/drupal">Drupal issue queue</a></li><li><a href="http://drupal.org/project/issues/activation_codes">Activation Codes issue queue</a></li><li><a href="http://drupal.org/project/issues/adminrole">Admin Role issue queue</a></li><li><a href="http://drupal.org/project/issues/admin">Admin issue queue</a></li><li><a href="http://drupal.org/project/issues/admin_menu_dropdown">Administration Menu Dropdown issue queue</a></li><li><a href="http://drupal.org/project/issues/admin_menu">Administration menu issue queue</a></li><li><a href="http://drupal.org/project/issues/advanced_help">Advanced help issue queue</a></li><li><a href="http://drupal.org/project/issues/ajax">Ajax issue queue</a></li><li><a href="http://drupal.org/project/issues/angel_sync">Angel Sync issue queue</a></li><li><a href="http://drupal.org/project/issues/angel_test">Angel Test issue queue</a></li><li><a href="http://drupal.org/project/issues/annotated_biblio">Annotated Bibliography issue queue</a></li><li><a href="http://drupal.org/project/issues/apture">Apture issue queue</a></li><li><a href="http://drupal.org/project/issues/autocomplete_widgets">Autocomplete Widgets issue queue</a></li><li><a href="http://drupal.org/project/issues/backup_migrate">Backup and Migrate issue queue</a></li><li><a href="http://drupal.org/project/issues/better_formats">Better Formats issue queue</a></li><li><a href="http://drupal.org/project/issues/nodeformcols">Biblio compatability issue queue</a></li><li><a href="http://drupal.org/project/issues/biblio">Biblio issue queue</a></li><li><a href="http://drupal.org/project/issues/blockregion">Blockregion issue queue</a></li><li><a href="http://drupal.org/project/issues/views_bonus">Bonus: Views Export issue queue</a></li><li><a href="http://drupal.org/project/issues/browscap">Browscap issue queue</a></li><li><a href="http://drupal.org/project/issues/browser_warning">Browser Warning issue queue</a></li><li><a href="http://drupal.org/project/issues/ctools">Bulk Export issue queue</a></li><li><a href="http://drupal.org/project/issues/field_indexer">CCK Field Indexer issue queue</a></li><li><a href="http://drupal.org/project/issues/cck_redirection">CCK Redirection issue queue</a></li><li><a href="http://drupal.org/project/issues/ckeditor">CKEditor issue queue</a></li><li><a href="http://drupal.org/project/issues/ckeditor_swf">CKEditor SWF issue queue</a></li><li><a href="http://drupal.org/project/issues/css_injector">CSS Injector issue queue</a></li><li><a href="http://drupal.org/project/issues/colorpicker">Colorpicker issue queue</a></li><li><a href="http://drupal.org/project/issues/content_access">Content Access issue queue</a></li><li><a href="http://drupal.org/project/issues/jammer">Content Form Jammer issue queue</a></li><li><a href="http://drupal.org/project/issues/cck">Content issue queue</a></li><li><a href="http://drupal.org/project/issues/context">Context issue queue</a></li><li><a href="http://drupal.org/project/issues/course_manager">Course Manager issue queue</a></li><li><a href="http://drupal.org/project/issues/cumulus">Cumulus issue queue</a></li><li><a href="http://drupal.org/project/issues/db_maintenance">DB Maintenance issue queue</a></li><li><a href="http://drupal.org/project/issues/dhtml_menu">DHTML Menu issue queue</a></li><li><a href="http://drupal.org/project/issues/date">Date issue queue</a></li><li><a href="http://drupal.org/project/issues/devel">Devel issue queue</a></li><li><a href="http://drupal.org/project/issues/diff">Diff issue queue</a></li><li><a href="http://drupal.org/project/issues/disable_breadcrumbs">Disable breadcrumbs issue queue</a></li><li><a href="http://drupal.org/project/issues/draggableviews">DraggableViews issue queue</a></li><li><a href="http://drupal.org/project/issues/emfield">Embedded Media Field issue queue</a></li><li><a href="http://drupal.org/project/issues/environment_indicator">Environment Indicator issue queue</a></li><li><a href="http://drupal.org/project/issues/extlink">External Links issue queue</a></li><li><a href="http://drupal.org/project/issues/fasttoggle">Fasttoggle issue queue</a></li><li><a href="http://drupal.org/project/issues/features">Features issue queue</a></li><li><a href="http://drupal.org/project/issues/filefield_paths">FileField Paths issue queue</a></li><li><a href="http://drupal.org/project/issues/filefield">FileField issue queue</a></li><li><a href="http://drupal.org/project/issues/fivestar">Fivestar issue queue</a></li><li><a href="http://drupal.org/project/issues/flir">Flir issue queue</a></li><li><a href="http://drupal.org/project/issues/swftools">FlowPlayer 3 issue queue</a></li><li><a href="http://drupal.org/project/issues/frameprevention">Frameprevention issue queue</a></li><li><a href="http://drupal.org/project/issues/glossify">Glossify issue queue</a></li><li><a href="http://drupal.org/project/issues/html_export">HTML Export issue queue</a></li><li><a href="http://drupal.org/project/issues/hof">Hall of Fame issue queue</a></li><li><a href="http://drupal.org/project/issues/highslide">Highslide issue queue</a></li><li><a href="http://drupal.org/project/issues/homebox">Homebox issue queue</a></li><li><a href="http://drupal.org/project/issues/hovertip">Hovertip issue queue</a></li><li><a href="http://drupal.org/project/issues/unlimited_css">IE Unlimited CSS Loader issue queue</a></li><li><a href="http://drupal.org/project/issues/imce_crop">IMCE Crop issue queue</a></li><li><a href="http://drupal.org/project/issues/imce_kama">IMCE Kama issue queue</a></li><li><a href="http://drupal.org/project/issues/imce_mkdir">IMCE Mkdir issue queue</a></li><li><a href="http://drupal.org/project/issues/imce_wysiwyg">IMCE Wysiwyg API bridge issue queue</a></li><li><a href="http://drupal.org/project/issues/imce">IMCE issue queue</a></li><li><a href="http://drupal.org/project/issues/iconizer">Iconizer issue queue</a></li><li><a href="http://drupal.org/project/issues/imageapi">ImageAPI issue queue</a></li><li><a href="http://drupal.org/project/issues/imagecache">ImageCache issue queue</a></li><li><a href="http://drupal.org/project/issues/imagefield">ImageField issue queue</a></li><li><a href="http://drupal.org/project/issues/imagecache_actions">Imagecache Canvas Actions issue queue</a></li><li><a href="http://drupal.org/project/issues/jwplayermodule">JW Player Module issue queue</a></li><li><a href="http://drupal.org/project/issues/jstools">Javascript tools issue queue</a></li><li><a href="http://drupal.org/project/issues/jquery_colorpicker">Jquery Colorpicker issue queue</a></li><li><a href="http://drupal.org/project/issues/lightbox2">Lightbox2 issue queue</a></li><li><a href="http://drupal.org/project/issues/masquerade">Masquerade issue queue</a></li><li><a href="http://drupal.org/project/issues/media_bitsontherun">Media: Bits On The Run issue queue</a></li><li><a href="http://drupal.org/project/issues/menu_block">Menu Block issue queue</a></li><li><a href="http://drupal.org/project/issues/modes">Modes issue queue</a></li><li><a href="http://drupal.org/project/issues/util">Module Weights issue queue</a></li><li><a href="http://drupal.org/project/issues/network_connector">Network Connector issue queue</a></li><li><a href="http://drupal.org/project/issues/network_manager">Network Manager issue queue</a></li><li><a href="http://drupal.org/project/issues/node_privacy_byrole">Node Privacy By Role issue queue</a></li><li><a href="http://drupal.org/project/issues/node_export">Node export issue queue</a></li><li><a href="http://drupal.org/project/issues/og_block_visibility">OG Block Visibility issue queue</a></li><li><a href="http://drupal.org/project/issues/open_studio_feature">Open Studio Feature issue queue</a></li><li><a href="http://drupal.org/project/issues/og_aggregator">Organic groups aggregator issue queue</a></li><li><a href="http://drupal.org/project/issues/og_defaults">Organic groups defaults issue queue</a></li><li><a href="http://drupal.org/project/issues/og">Organic groups issue queue</a></li><li><a href="http://drupal.org/project/issues/og_reg_keys">Organic groups registration keys issue queue</a></li><li><a href="http://drupal.org/project/issues/og_statistics">Organic groups statistics issue queue</a></li><li><a href="http://drupal.org/project/issues/og_user_roles">Organic groups user roles issue queue</a></li><li><a href="http://drupal.org/project/issues/outline_designer">Outline Child Pages issue queue</a></li><li><a href="http://drupal.org/project/issues/panels">Panels issue queue</a></li><li><a href="http://drupal.org/project/issues/pathauto">Pathauto issue queue</a></li><li><a href="http://drupal.org/project/issues/purl">Persistent URL issue queue</a></li><li><a href="http://drupal.org/project/issues/prepopulate">Prepopulate issue queue</a></li><li><a href="http://drupal.org/project/issues/print">Printer-friendly pages issue queue</a></li><li><a href="http://drupal.org/project/issues/protect_critical_users">Protect Critical Users issue queue</a></li><li><a href="http://drupal.org/project/issues/ed_readmore">Read More link issue queue</a></li><li><a href="http://drupal.org/project/issues/swfembed">SWF Embed issue queue</a></li><li><a href="http://drupal.org/project/issues/swfobject_api">SWFObject API issue queue</a></li><li><a href="http://drupal.org/project/issues/safarisearch">Safari Search issue queue</a></li><li><a href="http://drupal.org/project/issues/scanner">Scanner issue queue</a></li><li><a href="http://drupal.org/project/issues/schema">Schema issue queue</a></li><li><a href="http://drupal.org/project/issues/search404">Search 404 issue queue</a></li><li><a href="http://drupal.org/project/issues/search_and_replace">Search and Replace issue queue</a></li><li><a href="http://drupal.org/project/issues/site_branding">Site Branding issue queue</a></li><li><a href="http://drupal.org/project/issues/spaces">Spaces Dashboard issue queue</a></li><li><a href="http://drupal.org/project/issues/statistics_advanced">Statistics advanced settings issue queue</a></li><li><a href="http://drupal.org/project/issues/strongarm">Strongarm issue queue</a></li><li><a href="http://drupal.org/project/issues/table_altrow">Table Alternate Rows issue queue</a></li><li><a href="http://drupal.org/project/issues/tagadelic">Tagadelic issue queue</a></li><li><a href="http://drupal.org/project/issues/textimage">Textimage issue queue</a></li><li><a href="http://drupal.org/project/issues/themesettingsapi">Theme Settings API issue queue</a></li><li><a href="http://drupal.org/project/issues/themekey_properties">ThemeKey Properties issue queue</a></li><li><a href="http://drupal.org/project/issues/themekey">ThemeKey issue queue</a></li><li><a href="http://drupal.org/project/issues/thickbox">Thickbox issue queue</a></li><li><a href="http://drupal.org/project/issues/tinymce">TinyMCE issue queue</a></li><li><a href="http://drupal.org/project/issues/token">Token issue queue</a></li><li><a href="http://drupal.org/project/issues/transliteration">Transliteration issue queue</a></li><li><a href="http://drupal.org/project/issues/uuid">Universally Unique IDentifier (UUID) issue queue</a></li><li><a href="http://drupal.org/project/issues/update_form_enhancement">Update form enhancement issue queue</a></li><li><a href="http://drupal.org/project/issues/vertical_tabs">Vertical Tabs issue queue</a></li><li><a href="http://drupal.org/project/issues/views_bulk_operations">Views Bulk Operations issue queue</a></li><li><a href="http://drupal.org/project/issues/views_calc">Views Calc issue queue</a></li><li><a href="http://drupal.org/project/issues/views_hacks">Views Composite Exposed Form Plugin issue queue</a></li><li><a href="http://drupal.org/project/issues/viewsdisplaytabs">Views Display Tabs issue queue</a></li><li><a href="http://drupal.org/project/issues/views_fluid_grid">Views Fluid Grid issue queue</a></li><li><a href="http://drupal.org/project/issues/views">Views issue queue</a></li><li><a href="http://drupal.org/project/issues/votingapi">Voting API issue queue</a></li><li><a href="http://drupal.org/project/issues/webform_validation">Webform Validation issue queue</a></li><li><a href="http://drupal.org/project/issues/webform">Webform issue queue</a></li><li><a href="http://drupal.org/project/issues/woopra">Woopra issue queue</a></li><li><a href="http://drupal.org/project/issues/wunderbar">Wunderbar! issue queue</a></li><li><a href="http://drupal.org/project/issues/wysiwyg">Wysiwyg issue queue</a></li><li><a href="http://drupal.org/project/issues/ipaper">iPaper issue queue</a></li><li><a href="http://drupal.org/project/issues/jquery_ui">jQuery UI issue queue</a></li><li><a href="http://drupal.org/project/issues/jquery_update">jQuery Update issue queue</a></li><li><a href="http://drupal.org/project/issues/jtooltips">jtooltips issue queue</a></li></ul></li></ul></li><li class=" admin-menu-action admin-menu-logout"><a href="/courses/biol110/logout">Log out Carly Dreibelbis</a></li><li class=" admin-menu-action admin-menu-icon admin-menu-users"><a href="/courses/biol110/admin/user/user">0 / 1 <img src="/courses/biol110/sites/all/modules/admin_menu/images/icon_users.png" width="16" height="15" alt="Current anonymous / authenticated users" title="Current anonymous / authenticated users" /></a></li><li class="expandable"><a href="/courses/biol110/admin/content">Content management</a>
+<ul><li class="expandable"><a href="/courses/biol110/admin/content/book">Books</a>
+<ul><li><a href="/courses/biol110/admin/content/book/list">List</a></li><li><a href="/courses/biol110/admin/content/book/settings">Settings</a></li></ul></li><li class="expandable"><a href="/courses/biol110/admin/content/comment">Comments</a>
+<ul><li><a href="/courses/biol110/admin/content/comment/new">Published comments</a></li><li><a href="/courses/biol110/admin/content/comment/approval">Approval queue</a></li></ul></li><li class="expandable"><a href="/courses/biol110/admin/content/node">Content</a>
+<ul><li><a href="/courses/biol110/admin/content/node/overview">List</a></li></ul></li><li class="expandable"><a href="/courses/biol110/admin/content/types">Content types</a>
+<ul><li><a href="/courses/biol110/admin/content/types/list">List</a></li><li><a href="/courses/biol110/admin/content/types/add">Add content type</a></li><li class="expandable"><a href="/courses/biol110/admin/content/node-type/access-code">Edit Access Code</a>
+<ul><li><a href="/courses/biol110/admin/content/node-type/access-code/access">Access control</a></li><li class="expandable"><a href="/courses/biol110/admin/content/node-type/access-code/fields">Manage fields</a>
+<ul><li><a href="/courses/biol110/admin/content/node-type/access-code/fields/field_access_code_batch">Access Code Batch</a></li><li><a href="/courses/biol110/admin/content/node-type/access-code/fields/field_section">Section (Legacy)</a></li><li><a href="/courses/biol110/admin/content/node-type/access-code/fields/field_section_number">Section Number</a></li><li><a href="/courses/biol110/admin/content/node-type/access-code/fields/field_semester">Semester</a></li><li><a href="/courses/biol110/admin/content/node-type/access-code/fields/field_user">User</a></li><li><a href="/courses/biol110/admin/content/node-type/access-code/fields/field_username">Username (Legacy)</a></li><li><a href="/courses/biol110/admin/content/node-type/access-code/fields/field_year">Year</a></li></ul></li><li class="expandable"><a href="/courses/biol110/admin/content/node-type/access-code/display">Display fields</a>
+<ul><li><a href="/courses/biol110/admin/content/node-type/access-code/display/basic">Basic</a></li><li><a href="/courses/biol110/admin/content/node-type/access-code/display/print">Print</a></li><li><a href="/courses/biol110/admin/content/node-type/access-code/display/rss">RSS</a></li><li><a href="/courses/biol110/admin/content/node-type/access-code/display/search">Search</a></li><li><a href="/courses/biol110/admin/content/node-type/access-code/display/token">Token</a></li></ul></li><li><a href="/courses/biol110/admin/content/node-type/access-code/form">Manage form</a></li><li class="expandable"><a href="/courses/biol110/admin/content/node-type/access-code/fivestar">Fivestar voting</a>
+<ul><li><a href="/courses/biol110/admin/content/node-type/access-code/fivestar/vote">vote</a></li></ul></li></ul></li><li class="expandable"><a href="/courses/biol110/admin/content/node-type/access-code-batch">Edit Access Code Batch</a>
+<ul><li><a href="/courses/biol110/admin/content/node-type/access-code-batch/access">Access control</a></li><li class="expandable"><a href="/courses/biol110/admin/content/node-type/access-code-batch/fields">Manage fields</a>
+<ul><li><a href="/courses/biol110/admin/content/node-type/access-code-batch/fields/field_course">Course</a></li><li><a href="/courses/biol110/admin/content/node-type/access-code-batch/fields/field_course_txt">Course</a></li><li><a href="/courses/biol110/admin/content/node-type/access-code-batch/fields/field_date">Date</a></li><li><a href="/courses/biol110/admin/content/node-type/access-code-batch/fields/field_number_access_codes">Number of Access Codes</a></li><li><a href="/courses/biol110/admin/content/node-type/access-code-batch/fields/field_printed">Printed</a></li></ul></li><li class="expandable"><a href="/courses/biol110/admin/content/node-type/access-code-batch/display">Display fields</a>
+<ul><li><a href="/courses/biol110/admin/content/node-type/access-code-batch/display/basic">Basic</a></li><li><a href="/courses/biol110/admin/content/node-type/access-code-batch/display/print">Print</a></li><li><a href="/courses/biol110/admin/content/node-type/access-code-batch/display/rss">RSS</a></li><li><a href="/courses/biol110/admin/content/node-type/access-code-batch/display/search">Search</a></li><li><a href="/courses/biol110/admin/content/node-type/access-code-batch/display/token">Token</a></li></ul></li><li><a href="/courses/biol110/admin/content/node-type/access-code-batch/form">Manage form</a></li><li class="expandable"><a href="/courses/biol110/admin/content/node-type/access-code-batch/fivestar">Fivestar voting</a>
+<ul><li><a href="/courses/biol110/admin/content/node-type/access-code-batch/fivestar/vote">vote</a></li></ul></li></ul></li><li class="expandable"><a href="/courses/biol110/admin/content/node-type/biblio">Edit Biblio</a>
+<ul><li><a href="/courses/biol110/admin/content/node-type/biblio/access">Access control</a></li><li><a href="/courses/biol110/admin/content/node-type/biblio/fields">Manage fields</a></li><li class="expandable"><a href="/courses/biol110/admin/content/node-type/biblio/display">Display fields</a>
+<ul><li><a href="/courses/biol110/admin/content/node-type/biblio/display/basic">Basic</a></li><li><a href="/courses/biol110/admin/content/node-type/biblio/display/print">Print</a></li><li><a href="/courses/biol110/admin/content/node-type/biblio/display/rss">RSS</a></li><li><a href="/courses/biol110/admin/content/node-type/biblio/display/search">Search</a></li><li><a href="/courses/biol110/admin/content/node-type/biblio/display/token">Token</a></li></ul></li><li><a href="/courses/biol110/admin/content/node-type/biblio/form">Manage form</a></li><li class="expandable"><a href="/courses/biol110/admin/content/node-type/biblio/fivestar">Fivestar voting</a>
+<ul><li><a href="/courses/biol110/admin/content/node-type/biblio/fivestar/vote">vote</a></li></ul></li></ul></li><li class="expandable"><a href="/courses/biol110/admin/content/node-type/blog">Edit Blog entry</a>
+<ul><li><a href="/courses/biol110/admin/content/node-type/blog/access">Access control</a></li><li><a href="/courses/biol110/admin/content/node-type/blog/fields">Manage fields</a></li><li class="expandable"><a href="/courses/biol110/admin/content/node-type/blog/display">Display fields</a>
+<ul><li><a href="/courses/biol110/admin/content/node-type/blog/display/basic">Basic</a></li><li><a href="/courses/biol110/admin/content/node-type/blog/display/print">Print</a></li><li><a href="/courses/biol110/admin/content/node-type/blog/display/rss">RSS</a></li><li><a href="/courses/biol110/admin/content/node-type/blog/display/search">Search</a></li><li><a href="/courses/biol110/admin/content/node-type/blog/display/token">Token</a></li></ul></li><li><a href="/courses/biol110/admin/content/node-type/blog/form">Manage form</a></li><li class="expandable"><a href="/courses/biol110/admin/content/node-type/blog/fivestar">Fivestar voting</a>
+<ul><li><a href="/courses/biol110/admin/content/node-type/blog/fivestar/vote">vote</a></li></ul></li></ul></li><li class="expandable"><a href="/courses/biol110/admin/content/node-type/course">Edit Course</a>
+<ul><li><a href="/courses/biol110/admin/content/node-type/course/access">Access control</a></li><li class="expandable"><a href="/courses/biol110/admin/content/node-type/course/fields">Manage fields</a>
+<ul><li><a href="/courses/biol110/admin/content/node-type/course/fields/field_authentication_method">Authentication Method</a></li><li><a href="/courses/biol110/admin/content/node-type/course/fields/field_course_manager">Course Manager</a></li><li><a href="/courses/biol110/admin/content/node-type/course/fields/field_status">Status</a></li></ul></li><li class="expandable"><a href="/courses/biol110/admin/content/node-type/course/display">Display fields</a>
+<ul><li><a href="/courses/biol110/admin/content/node-type/course/display/basic">Basic</a></li><li><a href="/courses/biol110/admin/content/node-type/course/display/print">Print</a></li><li><a href="/courses/biol110/admin/content/node-type/course/display/rss">RSS</a></li><li><a href="/courses/biol110/admin/content/node-type/course/display/search">Search</a></li><li><a href="/courses/biol110/admin/content/node-type/course/display/token">Token</a></li></ul></li><li><a href="/courses/biol110/admin/content/node-type/course/form">Manage form</a></li><li class="expandable"><a href="/courses/biol110/admin/content/node-type/course/fivestar">Fivestar voting</a>
+<ul><li><a href="/courses/biol110/admin/content/node-type/course/fivestar/vote">vote</a></li></ul></li></ul></li><li class="expandable"><a href="/courses/biol110/admin/content/node-type/faq">Edit FAQ</a>
+<ul><li><a href="/courses/biol110/admin/content/node-type/faq/access">Access control</a></li><li><a href="/courses/biol110/admin/content/node-type/faq/fields">Manage fields</a></li><li class="expandable"><a href="/courses/biol110/admin/content/node-type/faq/display">Display fields</a>
+<ul><li><a href="/courses/biol110/admin/content/node-type/faq/display/basic">Basic</a></li><li><a href="/courses/biol110/admin/content/node-type/faq/display/print">Print</a></li><li><a href="/courses/biol110/admin/content/node-type/faq/display/rss">RSS</a></li><li><a href="/courses/biol110/admin/content/node-type/faq/display/search">Search</a></li><li><a href="/courses/biol110/admin/content/node-type/faq/display/token">Token</a></li></ul></li><li><a href="/courses/biol110/admin/content/node-type/faq/form">Manage form</a></li><li class="expandable"><a href="/courses/biol110/admin/content/node-type/faq/fivestar">Fivestar voting</a>
+<ul><li><a href="/courses/biol110/admin/content/node-type/faq/fivestar/vote">vote</a></li></ul></li></ul></li><li class="expandable"><a href="/courses/biol110/admin/content/node-type/folder">Edit Folder</a>
+<ul><li><a href="/courses/biol110/admin/content/node-type/folder/access">Access control</a></li><li><a href="/courses/biol110/admin/content/node-type/folder/fields">Manage fields</a></li><li class="expandable"><a href="/courses/biol110/admin/content/node-type/folder/display">Display fields</a>
+<ul><li><a href="/courses/biol110/admin/content/node-type/folder/display/basic">Basic</a></li><li><a href="/courses/biol110/admin/content/node-type/folder/display/print">Print</a></li><li><a href="/courses/biol110/admin/content/node-type/folder/display/rss">RSS</a></li><li><a href="/courses/biol110/admin/content/node-type/folder/display/search">Search</a></li><li><a href="/courses/biol110/admin/content/node-type/folder/display/token">Token</a></li></ul></li><li><a href="/courses/biol110/admin/content/node-type/folder/form">Manage form</a></li><li class="expandable"><a href="/courses/biol110/admin/content/node-type/folder/fivestar">Fivestar voting</a>
+<ul><li><a href="/courses/biol110/admin/content/node-type/folder/fivestar/vote">vote</a></li></ul></li></ul></li><li class="expandable"><a href="/courses/biol110/admin/content/node-type/forum">Edit Forum topic</a>
+<ul><li><a href="/courses/biol110/admin/content/node-type/forum/access">Access control</a></li><li><a href="/courses/biol110/admin/content/node-type/forum/fields">Manage fields</a></li><li class="expandable"><a href="/courses/biol110/admin/content/node-type/forum/display">Display fields</a>
+<ul><li><a href="/courses/biol110/admin/content/node-type/forum/display/basic">Basic</a></li><li><a href="/courses/biol110/admin/content/node-type/forum/display/print">Print</a></li><li><a href="/courses/biol110/admin/content/node-type/forum/display/rss">RSS</a></li><li><a href="/courses/biol110/admin/content/node-type/forum/display/search">Search</a></li><li><a href="/courses/biol110/admin/content/node-type/forum/display/token">Token</a></li></ul></li><li><a href="/courses/biol110/admin/content/node-type/forum/form">Manage form</a></li><li class="expandable"><a href="/courses/biol110/admin/content/node-type/forum/fivestar">Fivestar voting</a>
+<ul><li><a href="/courses/biol110/admin/content/node-type/forum/fivestar/vote">vote</a></li></ul></li></ul></li><li class="expandable"><a href="/courses/biol110/admin/content/node-type/link">Edit Link</a>
+<ul><li><a href="/courses/biol110/admin/content/node-type/link/access">Access control</a></li><li class="expandable"><a href="/courses/biol110/admin/content/node-type/link/fields">Manage fields</a>
+<ul><li><a href="/courses/biol110/admin/content/node-type/link/fields/field_redirect">Redirect</a></li></ul></li><li class="expandable"><a href="/courses/biol110/admin/content/node-type/link/display">Display fields</a>
+<ul><li><a href="/courses/biol110/admin/content/node-type/link/display/basic">Basic</a></li><li><a href="/courses/biol110/admin/content/node-type/link/display/print">Print</a></li><li><a href="/courses/biol110/admin/content/node-type/link/display/rss">RSS</a></li><li><a href="/courses/biol110/admin/content/node-type/link/display/search">Search</a></li><li><a href="/courses/biol110/admin/content/node-type/link/display/token">Token</a></li></ul></li><li><a href="/courses/biol110/admin/content/node-type/link/form">Manage form</a></li><li class="expandable"><a href="/courses/biol110/admin/content/node-type/link/fivestar">Fivestar voting</a>
+<ul><li><a href="/courses/biol110/admin/content/node-type/link/fivestar/vote">vote</a></li></ul></li></ul></li><li class="expandable"><a href="/courses/biol110/admin/content/node-type/page">Edit Page</a>
+<ul><li><a href="/courses/biol110/admin/content/node-type/page/access">Access control</a></li><li><a href="/courses/biol110/admin/content/node-type/page/fields">Manage fields</a></li><li class="expandable"><a href="/courses/biol110/admin/content/node-type/page/display">Display fields</a>
+<ul><li><a href="/courses/biol110/admin/content/node-type/page/display/basic">Basic</a></li><li><a href="/courses/biol110/admin/content/node-type/page/display/print">Print</a></li><li><a href="/courses/biol110/admin/content/node-type/page/display/rss">RSS</a></li><li><a href="/courses/biol110/admin/content/node-type/page/display/search">Search</a></li><li><a href="/courses/biol110/admin/content/node-type/page/display/token">Token</a></li></ul></li><li><a href="/courses/biol110/admin/content/node-type/page/form">Manage form</a></li><li class="expandable"><a href="/courses/biol110/admin/content/node-type/page/fivestar">Fivestar voting</a>
+<ul><li><a href="/courses/biol110/admin/content/node-type/page/fivestar/vote">vote</a></li></ul></li></ul></li><li class="expandable"><a href="/courses/biol110/admin/content/node-type/section">Edit Section</a>
+<ul><li><a href="/courses/biol110/admin/content/node-type/section/access">Access control</a></li><li class="expandable"><a href="/courses/biol110/admin/content/node-type/section/fields">Manage fields</a>
+<ul><li><a href="/courses/biol110/admin/content/node-type/section/fields/field_angel_string">Angel String</a></li><li><a href="/courses/biol110/admin/content/node-type/section/fields/field_course">Course</a></li><li><a href="/courses/biol110/admin/content/node-type/section/fields/field_instructor">Instructor Username</a></li><li><a href="/courses/biol110/admin/content/node-type/section/fields/field_section_number">Section Number</a></li><li><a href="/courses/biol110/admin/content/node-type/section/fields/field_semester">Semester</a></li><li><a href="/courses/biol110/admin/content/node-type/section/fields/field_status">Status</a></li><li><a href="/courses/biol110/admin/content/node-type/section/fields/field_year">Year</a></li></ul></li><li class="expandable"><a href="/courses/biol110/admin/content/node-type/section/display">Display fields</a>
+<ul><li><a href="/courses/biol110/admin/content/node-type/section/display/basic">Basic</a></li><li><a href="/courses/biol110/admin/content/node-type/section/display/print">Print</a></li><li><a href="/courses/biol110/admin/content/node-type/section/display/rss">RSS</a></li><li><a href="/courses/biol110/admin/content/node-type/section/display/search">Search</a></li><li><a href="/courses/biol110/admin/content/node-type/section/display/token">Token</a></li></ul></li><li><a href="/courses/biol110/admin/content/node-type/section/form">Manage form</a></li><li class="expandable"><a href="/courses/biol110/admin/content/node-type/section/fivestar">Fivestar voting</a>
+<ul><li><a href="/courses/biol110/admin/content/node-type/section/fivestar/vote">vote</a></li></ul></li></ul></li><li class="expandable"><a href="/courses/biol110/admin/content/node-type/webform">Edit Webform</a>
+<ul><li><a href="/courses/biol110/admin/content/node-type/webform/access">Access control</a></li><li><a href="/courses/biol110/admin/content/node-type/webform/fields">Manage fields</a></li><li class="expandable"><a href="/courses/biol110/admin/content/node-type/webform/display">Display fields</a>
+<ul><li><a href="/courses/biol110/admin/content/node-type/webform/display/basic">Basic</a></li><li><a href="/courses/biol110/admin/content/node-type/webform/display/print">Print</a></li><li><a href="/courses/biol110/admin/content/node-type/webform/display/rss">RSS</a></li><li><a href="/courses/biol110/admin/content/node-type/webform/display/search">Search</a></li><li><a href="/courses/biol110/admin/content/node-type/webform/display/token">Token</a></li></ul></li><li><a href="/courses/biol110/admin/content/node-type/webform/form">Manage form</a></li><li class="expandable"><a href="/courses/biol110/admin/content/node-type/webform/fivestar">Fivestar voting</a>
+<ul><li><a href="/courses/biol110/admin/content/node-type/webform/fivestar/vote">vote</a></li></ul></li></ul></li><li><a href="/courses/biol110/admin/content/types/fields">Fields</a></li></ul></li><li class="expandable"><a href="/courses/biol110/node/add">Create content</a>
+<ul><li><a href="/courses/biol110/node/add/access-code">Access Code</a></li><li><a href="/courses/biol110/node/add/access-code-batch">Access Code Batch</a></li><li><a href="/courses/biol110/node/add/biblio">Biblio</a></li><li><a href="/courses/biol110/node/add/blog">Blog entry</a></li><li><a href="/courses/biol110/node/add/course">Course</a></li><li><a href="/courses/biol110/node/add/faq">FAQ</a></li><li><a href="/courses/biol110/node/add/folder">Folder</a></li><li><a href="/courses/biol110/node/add/forum">Forum topic</a></li><li><a href="/courses/biol110/node/add/link">Link</a></li><li><a href="/courses/biol110/node/add/node_export">Node export: import</a></li><li><a href="/courses/biol110/node/add/page">Page</a></li><li><a href="/courses/biol110/node/add/section">Section</a></li><li><a href="/courses/biol110/node/add/webform">Webform</a></li></ul></li><li class="expandable"><a href="/courses/biol110/admin/content/emfield">Embedded Media Field configuration</a>
+<ul><li><a href="/courses/biol110/admin/content/emfield/media">General</a></li><li><a href="/courses/biol110/admin/content/emfield/emvideo">Videos</a></li></ul></li><li class="expandable"><a href="/courses/biol110/admin/content/aggregator">Feed aggregator</a>
+<ul><li><a href="/courses/biol110/admin/content/aggregator/list">List</a></li><li><a href="/courses/biol110/admin/content/aggregator/add/category">Add category</a></li><li><a href="/courses/biol110/admin/content/aggregator/add/feed">Add feed</a></li><li><a href="/courses/biol110/admin/content/aggregator/settings">Settings</a></li></ul></li><li class="expandable"><a href="/courses/biol110/admin/content/forum">Forums</a>
+<ul><li><a href="/courses/biol110/admin/content/forum/list">List</a></li><li><a href="/courses/biol110/admin/content/forum/add/container">Add container</a></li><li><a href="/courses/biol110/admin/content/forum/add/forum">Add forum</a></li><li><a href="/courses/biol110/admin/content/forum/settings">Settings</a></li></ul></li><li><a href="/courses/biol110/admin/content/node-settings">Post settings</a></li><li><a href="/courses/biol110/admin/content/rss-publishing">RSS publishing</a></li><li class="expandable"><a href="/courses/biol110/admin/content/scanner">Search and Replace Scanner</a>
+<ul><li><a href="/courses/biol110/admin/content/scanner/scan">Search</a></li><li><a href="/courses/biol110/admin/content/scanner/undo">Undo</a></li><li><a href="/courses/biol110/admin/content/scanner/settings">Settings</a></li></ul></li><li class="expandable"><a href="/courses/biol110/admin/content/taxonomy">Taxonomy</a>
+<ul><li><a href="/courses/biol110/admin/content/taxonomy/list">List</a></li><li><a href="/courses/biol110/admin/content/taxonomy/add/vocabulary">Add vocabulary</a></li></ul></li><li><a href="/courses/biol110/admin/content/webform">Webforms</a></li></ul></li><li class="expandable"><a href="/courses/biol110/admin/build">Site building</a>
+<ul><li class="expandable"><a href="/courses/biol110/admin/build/block">Blocks</a>
+<ul><li class="expandable"><a href="/courses/biol110/admin/build/block/list">List</a>
+<ul><li><a href="/courses/biol110/admin/build/block/list/FRNSCv9">FRNSCv9</a></li><li><a href="/courses/biol110/admin/build/block/list/Bio133OrangeGreenTheme2v2">Bio133OrangeGreenTheme2v2</a></li><li><a href="/courses/biol110/admin/build/block/list/fresh_start">FreshStart</a></li></ul></li><li><a href="/courses/biol110/admin/build/block/add">Add block</a></li><li><a href="/courses/biol110/admin/build/block/add-menu-block">Add menu block</a></li></ul></li><li><a href="/courses/biol110/admin/build/bulkexport">Bulk Exporter</a></li><li class="expandable"><a href="/courses/biol110/admin/build/context">Context</a>
+<ul><li><a href="/courses/biol110/admin/build/context/list">List</a></li><li><a href="/courses/biol110/admin/build/context/add">Add</a></li><li><a href="/courses/biol110/admin/build/context/import">Import</a></li></ul></li><li class="expandable"><a href="/courses/biol110/admin/build/ctools-rulesets">Custom access rulesets</a>
+<ul><li><a href="/courses/biol110/admin/build/ctools-rulesets/list">List</a></li><li><a href="/courses/biol110/admin/build/ctools-rulesets/add">Add</a></li><li><a href="/courses/biol110/admin/build/ctools-rulesets/import">Import</a></li></ul></li><li class="expandable"><a href="/courses/biol110/admin/build/ctools-content">Custom content panes</a>
+<ul><li><a href="/courses/biol110/admin/build/ctools-content/list">List</a></li><li><a href="/courses/biol110/admin/build/ctools-content/add">Add</a></li><li><a href="/courses/biol110/admin/build/ctools-content/import">Import</a></li></ul></li><li class="expandable"><a href="/courses/biol110/admin/build/features">Features</a>
+<ul><li><a href="/courses/biol110/admin/build/features/manage">Manage</a></li><li><a href="/courses/biol110/admin/build/features/create">Create feature</a></li></ul></li><li><a href="/courses/biol110/admin/build/homebox">Homebox</a></li><li class="expandable"><a href="/courses/biol110/admin/build/imagecache">ImageCache</a>
+<ul><li><a href="/courses/biol110/admin/build/imagecache/list">List</a></li><li><a href="/courses/biol110/admin/build/imagecache/add">Add new preset</a></li></ul></li><li class="expandable"><a href="/courses/biol110/admin/build/menu">Menus</a>
+<ul><li><a href="/courses/biol110/admin/build/menu/list">List menus</a></li><li><a href="/courses/biol110/admin/build/menu/add">Add menu</a></li><li><a href="/courses/biol110/admin/build/menu/settings">Settings</a></li></ul></li><li class="expandable"><a href="/courses/biol110/admin/build/mini-panels">Mini panels</a>
+<ul><li><a href="/courses/biol110/admin/build/mini-panels/list">List</a></li><li><a href="/courses/biol110/admin/build/mini-panels/add">Add</a></li><li><a href="/courses/biol110/admin/build/mini-panels/import">Import</a></li><li><a href="/courses/biol110/admin/build/mini-panels/settings">Settings</a></li></ul></li><li class="expandable"><a href="/courses/biol110/admin/build/modules">Modules</a>
+<ul><li><a href="/courses/biol110/admin/build/modules/list">List</a></li><li><a href="/courses/biol110/admin/build/modules/uninstall">Uninstall</a></li></ul></li><li class="expandable"><a href="/courses/biol110/admin/build/pages">Pages</a>
+<ul><li><a href="/courses/biol110/admin/build/pages/list">List</a></li><li><a href="/courses/biol110/admin/build/pages/wizard">Wizards</a></li><li><a href="/courses/biol110/admin/build/pages/add">Add custom page</a></li><li><a href="/courses/biol110/admin/build/pages/import">Import page</a></li></ul></li><li class="expandable"><a href="/courses/biol110/admin/build/panels">Panels</a>
+<ul><li><a href="/courses/biol110/admin/build/panels/dashboard">Dashboard</a></li><li class="expandable"><a href="/courses/biol110/admin/build/panels/layouts">Layouts</a>
+<ul><li><a href="/courses/biol110/admin/build/panels/layouts/list">List</a></li><li><a href="/courses/biol110/admin/build/panels/layouts/add-flexible">Add flexible layout</a></li><li><a href="/courses/biol110/admin/build/panels/layouts/import">Import</a></li></ul></li><li class="expandable"><a href="/courses/biol110/admin/build/panels/settings">Settings</a>
+<ul><li><a href="/courses/biol110/admin/build/panels/settings/general">General</a></li><li><a href="/courses/biol110/admin/build/panels/settings/panel-page">Panel pages</a></li><li><a href="/courses/biol110/admin/build/panels/settings/panels-mini">Mini panels</a></li></ul></li></ul></li><li class="expandable"><a href="/courses/biol110/admin/build/schema">Schema</a>
+<ul><li><a href="/courses/biol110/admin/build/schema/report">Compare</a></li><li><a href="/courses/biol110/admin/build/schema/describe">Describe</a></li><li><a href="/courses/biol110/admin/build/schema/inspect">Inspect</a></li><li><a href="/courses/biol110/admin/build/schema/sql">SQL</a></li><li><a href="/courses/biol110/admin/build/schema/show">Show</a></li><li><a href="/courses/biol110/admin/build/schema/settings">Settings</a></li></ul></li><li class="expandable"><a href="/courses/biol110/admin/build/stylizer">Stylizer</a>
+<ul><li><a href="/courses/biol110/admin/build/stylizer/list">List</a></li><li><a href="/courses/biol110/admin/build/stylizer/add">Add</a></li><li><a href="/courses/biol110/admin/build/stylizer/import">Import</a></li></ul></li><li class="expandable"><a href="/courses/biol110/admin/build/themes">Themes</a>
+<ul><li><a href="/courses/biol110/admin/build/themes/select">List</a></li><li class="expandable"><a href="/courses/biol110/admin/build/themes/settings">Configure</a>
+<ul><li><a href="/courses/biol110/admin/build/themes/settings/global">Global settings</a></li><li><a href="/courses/biol110/admin/build/themes/settings/Bio133OrangeGreenTheme2v2">Bio133OrangeGreenTheme2v2</a></li><li><a href="/courses/biol110/admin/build/themes/settings/FRNSCv9">FRNSCv9</a></li><li><a href="/courses/biol110/admin/build/themes/settings/fresh_start">FreshStart</a></li></ul></li></ul></li><li class="expandable"><a href="/courses/biol110/admin/build/path">URL aliases</a>
+<ul><li><a href="/courses/biol110/admin/build/path/list">List</a></li><li><a href="/courses/biol110/admin/build/path/add">Add alias</a></li><li><a href="/courses/biol110/admin/build/path/patterns">Patterns</a></li><li><a href="/courses/biol110/admin/build/path/settings">Settings</a></li><li><a href="/courses/biol110/admin/build/path/update_bulk">Bulk update</a></li><li><a href="/courses/biol110/admin/build/path/delete_bulk">Delete aliases</a></li></ul></li><li class="expandable"><a href="/courses/biol110/admin/build/views">Views</a>
+<ul><li><a href="/courses/biol110/admin/build/views/list">List</a></li><li><a href="/courses/biol110/admin/build/views/add">Add</a></li><li><a href="/courses/biol110/admin/build/views/import">Import</a></li><li class="expandable"><a href="/courses/biol110/admin/build/views/tools">Tools</a>
+<ul><li><a href="/courses/biol110/admin/build/views/tools/basic">Basic</a></li><li class="expandable"><a href="/courses/biol110/admin/build/views/tools/export">Bulk export</a>
+<ul><li><a href="/courses/biol110/admin/build/views/tools/export/results">Bulk export results</a></li></ul></li><li><a href="/courses/biol110/admin/build/views/tools/convert">Convert</a></li></ul></li></ul></li><li><a href="/courses/biol110/admin/build/context/settings">Settings</a></li></ul></li><li class="expandable"><a href="/courses/biol110/admin/settings">Site configuration</a>
+<ul><li><a href="/courses/biol110/admin/by-module">By module</a></li><li class="expandable"><a href="/courses/biol110/admin/settings/actions">Actions</a>
+<ul><li><a href="/courses/biol110/admin/settings/actions/manage">Manage actions</a></li></ul></li><li><a href="/courses/biol110/admin/settings/admin_menu">Administration menu</a></li><li><a href="/courses/biol110/admin/settings/admin">Administration theme</a></li><li><a href="/courses/biol110/admin/settings/ajax">Ajax Settings</a></li><li><a href="/courses/biol110/admin/settings/apture">Apture</a></li><li class="expandable"><a href="/courses/biol110/admin/settings/biblio">Biblio settings</a>
+<ul><li><a href="/courses/biol110/admin/settings/biblio/basic">Preferences</a></li><li class="expandable"><a href="/courses/biol110/admin/settings/biblio/fields">Fields</a>
+<ul><li><a href="/courses/biol110/admin/settings/biblio/fields/common">Common</a></li><li class="expandable"><a href="/courses/biol110/admin/settings/biblio/fields/type">Publication Types</a>
+<ul><li><a href="/courses/biol110/admin/settings/biblio/fields/type/new">Add New Type</a></li><li><a href="/courses/biol110/admin/settings/biblio/fields/type/reset">Reset all types to defaults</a></li></ul></li></ul></li><li class="expandable"><a href="/courses/biol110/admin/settings/biblio/author">Authors</a>
+<ul><li><a href="/courses/biol110/admin/settings/biblio/author/list">List</a></li><li><a href="/courses/biol110/admin/settings/biblio/author/orphans">Orphaned Authors</a></li><li class="expandable"><a href="/courses/biol110/admin/settings/biblio/author/type">Author Types</a>
+<ul><li><a href="/courses/biol110/admin/settings/biblio/author/type/new">Add New Author Type</a></li></ul></li></ul></li><li class="expandable"><a href="/courses/biol110/admin/settings/biblio/keywords">Keywords</a>
+<ul><li><a href="/courses/biol110/admin/settings/biblio/keywords/list">List</a></li><li><a href="/courses/biol110/admin/settings/biblio/keywords/orphans">Orphaned Keywords</a></li></ul></li><li class="expandable"><a href="/courses/biol110/admin/settings/biblio/iomap">Import/Export Mapping</a>
+<ul><li><a href="/courses/biol110/admin/settings/biblio/iomap/formats">Import/Export Mapping</a></li></ul></li><li><a href="/courses/biol110/admin/settings/biblio/import">Import</a></li><li><a href="/courses/biol110/admin/settings/biblio/export">Export</a></li></ul></li><li><a href="/courses/biol110/admin/settings/botr">Bits on the Run</a></li><li><a href="/courses/biol110/admin/settings/blogapi">Blog API</a></li><li><a href="/courses/biol110/admin/settings/browscap">Browscap</a></li><li><a href="/courses/biol110/admin/settings/ckeditor_swf">CKEditor SWF</a></li><li><a href="/courses/biol110/admin/settings/css_injector">CSS injector</a></li><li><a href="/courses/biol110/admin/settings/clean-urls">Clean URLs</a></li><li><a href="/courses/biol110/admin/settings/cumulus">Cumulus</a></li><li><a href="/courses/biol110/admin/settings/db_maintenance">DB maintenance</a></li><li class="expandable"><a href="/courses/biol110/admin/settings/dashboard">Dashboard settings</a>
+<ul><li><a href="/courses/biol110/admin/settings/dashboard/blocks">Block settings</a></li><li><a href="/courses/biol110/admin/settings/dashboard/regions">Region settings</a></li></ul></li><li><a href="/courses/biol110/admin/settings/date_popup">Date Popup Configuration</a></li><li class="expandable"><a href="/courses/biol110/admin/settings/date-time">Date and time</a>
+<ul><li><a href="/courses/biol110/admin/settings/date-time/configure">Date and time</a></li><li class="expandable"><a href="/courses/biol110/admin/settings/date-time/formats">Formats</a>
+<ul><li><a href="/courses/biol110/admin/settings/date-time/formats/configure">Configure</a></li><li><a href="/courses/biol110/admin/settings/date-time/formats/custom">Custom formats</a></li><li><a href="/courses/biol110/admin/settings/date-time/formats/add">Add format</a></li></ul></li></ul></li><li><a href="/courses/biol110/admin/settings/disable_breadcrumbs">Disable breadcrumbs</a></li><li><a href="/courses/biol110/admin/settings/draggableviews">DraggableViews</a></li><li><a href="/courses/biol110/admin/settings/environment_indicator">Environment indicator</a></li><li><a href="/courses/biol110/admin/settings/error-reporting">Error reporting</a></li><li><a href="/courses/biol110/admin/settings/extlink">External links</a></li><li><a href="/courses/biol110/admin/settings/field_indexer">Field indexer</a></li><li class="expandable"><a href="/courses/biol110/admin/settings/file-system">File system</a>
+<ul><li><a href="/courses/biol110/admin/settings/file-system/settings">Settings</a></li><li><a href="/courses/biol110/admin/settings/file-system/transliteration">Transliteration</a></li></ul></li><li><a href="/courses/biol110/admin/settings/uploads">File uploads</a></li><li><a href="/courses/biol110/admin/settings/fivestar">Fivestar</a></li><li><a href="/courses/biol110/admin/settings/frameprevention">Frameprevention</a></li><li><a href="/courses/biol110/admin/settings/html_export">HTML export</a></li><li><a href="/courses/biol110/admin/settings/hof">Hall of Fame</a></li><li class="expandable"><a href="/courses/biol110/admin/settings/highslide">Highslide</a>
+<ul><li><a href="/courses/biol110/admin/settings/highslide/settings">Settings</a></li><li class="expandable"><a href="/courses/biol110/admin/settings/highslide/formatters">Imagecache/CCK</a>
+<ul><li><a href="/courses/biol110/admin/settings/highslide/formatters/list">List</a></li><li><a href="/courses/biol110/admin/settings/highslide/formatters/add">Add new formatter</a></li></ul></li></ul></li><li><a href="/courses/biol110/admin/settings/hovertip">Hovertip settings</a></li><li><a href="/courses/biol110/admin/settings/imce">IMCE</a></li><li><a href="/courses/biol110/admin/settings/image-toolkit">Image toolkit</a></li><li class="expandable"><a href="/courses/biol110/admin/settings/imageapi">ImageAPI</a>
+<ul><li><a href="/courses/biol110/admin/settings/imageapi/list">List</a></li><li class="expandable"><a href="/courses/biol110/admin/settings/imageapi/config">Configure</a>
+<ul><li><a href="/courses/biol110/admin/settings/imageapi/config/imageapi_gd">ImageAPI GD2</a></li></ul></li></ul></li><li class="expandable"><a href="/courses/biol110/admin/settings/filters">Input formats</a>
+<ul><li><a href="/courses/biol110/admin/settings/filters/list">List</a></li><li><a href="/courses/biol110/admin/settings/filters/add">Add input format</a></li><li><a href="/courses/biol110/admin/settings/filters/defaults">Defaults</a></li><li><a href="/courses/biol110/admin/settings/filters/settings">Settings</a></li></ul></li><li><a href="/courses/biol110/admin/settings/jtooltips">JQuery tooltips</a></li><li class="expandable"><a href="/courses/biol110/admin/settings/jwplayermodule">JW Player setup</a>
+<ul><li><a href="/courses/biol110/admin/settings/jwplayermodule/players">Configuration</a></li><li><a href="/courses/biol110/admin/settings/jwplayermodule/license">License</a></li><li><a href="/courses/biol110/admin/settings/jwplayermodule/upgrade">Upgrade</a></li></ul></li><li><a href="/courses/biol110/admin/settings/jammer">Jammer</a></li><li><a href="/courses/biol110/admin/settings/jquery_colorpicker">Jquery Colorpicker</a></li><li class="expandable"><a href="/courses/biol110/admin/settings/lightbox2">Lightbox2</a>
+<ul><li><a href="/courses/biol110/admin/settings/lightbox2/general">General</a></li><li><a href="/courses/biol110/admin/settings/lightbox2/slideshow">Slideshow</a></li><li><a href="/courses/biol110/admin/settings/lightbox2/html_content">HTML Content</a></li><li><a href="/courses/biol110/admin/settings/lightbox2/automatic">Automatic image handling</a></li></ul></li><li class="expandable"><a href="/courses/biol110/admin/settings/logging">Logging and alerts</a>
+<ul><li><a href="/courses/biol110/admin/settings/logging/dblog">Database logging</a></li></ul></li><li><a href="/courses/biol110/admin/settings/menu_block">Menu block</a></li><li><a href="/courses/biol110/admin/settings/modes">Modes</a></li><li><a href="/courses/biol110/admin/settings/network_manager">Network Manager</a></li><li><a href="/courses/biol110/admin/settings/node_export">Node export</a></li><li><a href="/courses/biol110/admin/settings/outline_designer">Outline Designer</a></li><li><a href="/courses/biol110/admin/settings/performance">Performance</a></li><li class="expandable"><a href="/courses/biol110/admin/settings/print">Printer, email and PDF versions</a>
+<ul><li class="expandable"><a href="/courses/biol110/admin/settings/print/html">Web page</a>
+<ul><li><a href="/courses/biol110/admin/settings/print/html/options">Options</a></li><li><a href="/courses/biol110/admin/settings/print/html/strings">Text strings</a></li></ul></li><li class="expandable"><a href="/courses/biol110/admin/settings/print/pdf">PDF</a>
+<ul><li><a href="/courses/biol110/admin/settings/print/pdf/options">Options</a></li><li><a href="/courses/biol110/admin/settings/print/pdf/strings">Text strings</a></li></ul></li><li class="expandable"><a href="/courses/biol110/admin/settings/print/common">Settings</a>
+<ul><li><a href="/courses/biol110/admin/settings/print/common/options">Options</a></li><li><a href="/courses/biol110/admin/settings/print/common/strings">Text strings</a></li></ul></li></ul></li><li><a href="/courses/biol110/admin/settings/ed_readmore">Read More link</a></li><li><a href="/courses/biol110/admin/settings/rubric">Rubric</a></li><li class="expandable"><a href="/courses/biol110/admin/settings/swftools">SWF Tools</a>
+<ul><li><a href="/courses/biol110/admin/settings/swftools/embed">Embedding settings</a></li><li><a href="/courses/biol110/admin/settings/swftools/handling">File handling</a></li><li><a href="/courses/biol110/admin/settings/swftools/generic">Generic players</a></li><li><a href="/courses/biol110/admin/settings/swftools/cck">CCK formatters</a></li><li><a href="/courses/biol110/admin/settings/swftools/flowplayer3">FlowPlayer 3</a></li><li><a href="/courses/biol110/admin/settings/swftools/imagerotator">JW Image Rotator 3</a></li><li><a href="/courses/biol110/admin/settings/swftools/wijering">JW Media Player 3</a></li><li><a href="/courses/biol110/admin/settings/swftools/wijering4">JW Media Player 4</a></li></ul></li><li><a href="/courses/biol110/admin/settings/swfobject_api">SWFObject API</a></li><li><a href="/courses/biol110/admin/settings/search404">Search 404 settings</a></li><li><a href="/courses/biol110/admin/settings/scanner">Search and Replace Scanner</a></li><li><a href="/courses/biol110/admin/settings/search">Search settings</a></li><li><a href="/courses/biol110/admin/settings/site-information">Site information</a></li><li><a href="/courses/biol110/admin/settings/site-maintenance">Site maintenance</a></li><li><a href="/courses/biol110/admin/settings/strongarm">Strongarm</a></li><li><a href="/courses/biol110/admin/settings/tagadelic">Tagadelic configuration</a></li><li><a href="/courses/biol110/admin/settings/uuid">Universally Unique IDentifier</a></li><li class="expandable"><a href="/courses/biol110/admin/settings/util">Utilities</a>
+<ul><li><a href="/courses/biol110/admin/settings/util/general">Base</a></li><li><a href="/courses/biol110/admin/settings/util/apfm">Access Permissions Fieldsets</a></li><li><a href="/courses/biol110/admin/settings/util/module_weights">Module Weights</a></li><li><a href="/courses/biol110/admin/settings/util/sysmods">Modules Settings</a></li><li><a href="/courses/biol110/admin/settings/util/type_defaults">Type Defaults</a></li></ul></li><li><a href="/courses/biol110/admin/settings/vertical-tabs">Vertical Tabs</a></li><li><a href="/courses/biol110/admin/settings/viewsdisplaytabs">Views Display Tabs</a></li><li><a href="/courses/biol110/admin/settings/votingapi">Voting API</a></li><li class="expandable"><a href="/courses/biol110/admin/settings/webaccess">WebAccess</a>
+<ul><li><a href="/courses/biol110/admin/settings/webaccess/config">WebAccess</a></li></ul></li><li><a href="/courses/biol110/admin/settings/webform">Webform settings</a></li><li><a href="/courses/biol110/admin/settings/woopra">Woopra</a></li><li><a href="/courses/biol110/admin/settings/wunderbar">Wunderbar!</a></li><li class="expandable"><a href="/courses/biol110/admin/settings/wysiwyg">Wysiwyg profiles</a>
+<ul><li><a href="/courses/biol110/admin/settings/wysiwyg/profile">List</a></li></ul></li><li><a href="/courses/biol110/admin/settings/jquery_update">jQuery Update</a></li><li class="expandable"><a href="/courses/biol110/admin/settings/purl">Persistent URL</a>
+<ul><li><a href="/courses/biol110/admin/settings/purl/settings">Settings</a></li><li><a href="/courses/biol110/admin/settings/purl/list">Modifiers</a></li><li><a href="/courses/biol110/admin/settings/purl/types">Types</a></li></ul></li><li class="expandable"><a href="/courses/biol110/admin/settings/views_calc">Views Calc</a>
+<ul><li><a href="/courses/biol110/admin/settings/views_calc/fields">Fields</a></li><li><a href="/courses/biol110/admin/settings/views_calc/settings">Settings</a></li></ul></li></ul></li><li class="expandable"><a href="/courses/biol110/admin/user">User management</a>
+<ul><li class="expandable"><a href="/courses/biol110/admin/user/rules">Access rules</a>
+<ul><li><a href="/courses/biol110/admin/user/rules/list">List</a></li><li><a href="/courses/biol110/admin/user/rules/add">Add rule</a></li><li><a href="/courses/biol110/admin/user/rules/check">Check rules</a></li></ul></li><li><a href="/courses/biol110/admin/user/permissions">Permissions</a></li><li><a href="/courses/biol110/admin/user/profile">Profiles</a></li><li><a href="/courses/biol110/admin/user/roles">Roles</a></li><li><a href="/courses/biol110/admin/user/homebox">User profile Homebox</a></li><li><a href="/courses/biol110/admin/user/settings">User settings</a></li><li class="expandable"><a href="/courses/biol110/admin/user/user">Users</a>
+<ul><li><a href="/courses/biol110/admin/user/user/list">List</a></li><li><a href="/courses/biol110/admin/user/user/create">Add user</a></li></ul></li></ul></li><li class="expandable"><a href="/courses/biol110/admin/reports">Reports</a>
+<ul><li><a href="/courses/biol110/admin/reports/dblog">Recent log entries</a></li><li><a href="/courses/biol110/admin/reports/hits">Recent hits</a></li><li><a href="/courses/biol110/admin/reports/error_level">Site Error Levels</a></li><li><a href="/courses/biol110/admin/reports/access-denied">Top &#039;access denied&#039; errors</a></li><li><a href="/courses/biol110/admin/reports/page-not-found">Top &#039;page not found&#039; errors</a></li><li><a href="/courses/biol110/admin/reports/referrers">Top referrers</a></li><li><a href="/courses/biol110/admin/reports/search">Top search phrases</a></li><li><a href="/courses/biol110/admin/reports/pages">Top pages</a></li><li><a href="/courses/biol110/admin/reports/visitors">Top visitors</a></li><li class="expandable"><a href="/courses/biol110/admin/reports/settings">Access log settings</a>
+<ul><li><a href="/courses/biol110/admin/reports/settings/default">Settings</a></li><li><a href="/courses/biol110/admin/reports/settings/advanced">Advanced settings</a></li></ul></li><li class="expandable"><a href="/courses/biol110/admin/reports/browscap">Browscap</a>
+<ul><li><a href="/courses/biol110/admin/reports/browscap/useragents">All</a></li><li><a href="/courses/biol110/admin/reports/browscap/browsers">Browsers</a></li><li><a href="/courses/biol110/admin/reports/browscap/crawlers">Crawlers</a></li></ul></li><li><a href="/courses/biol110/admin/reports/swftools">SWF Tools status</a></li><li class="expandable"><a href="/courses/biol110/admin/reports/updates">Available updates</a>
+<ul><li><a href="/courses/biol110/admin/reports/updates/list">List</a></li><li><a href="/courses/biol110/admin/reports/updates/settings">Settings</a></li></ul></li><li><a href="/courses/biol110/admin/reports/status">Status report</a></li></ul></li><li><a href="/courses/biol110/admin/advanced_help">Advanced help</a></li><li><a href="/courses/biol110/admin/help">Help</a></li></ul></div>
+<script id="aptureScript" type="text/javascript" src="http://www.apture.com/js/apture.js?siteToken=" charset="utf-8"></script>
+<div id="closebutton" class="highslide-overlay closebutton" onclick="return hs.close(this)" title="Close"></div>
+<div id="sb-wrap"><div id="sb-button-open"></div><div id="sb-cont"><div id="sb-inner">Hi Carly Dreibelbis! (<a href="/courses/biol110/logout">logout</a>)</div></div></div>
+<script type="text/javascript">var woopra_array = new Array();
+woopra_array['name'] = 'Carly Dreibelbis';
+woopra_array['Email'] = 'cmd30@psu.edu';
+</script>
+<script src="https://sec1.woopra.com/js/woopra.js" type="text/javascript"></script>
+
+<div id="branding-bar">
+    <div id="bar-end-right-2"></div>
+  <div class="br-bg">
+    <div id="branding-bar-content">
+        <div class="bar-user">Carly Dreibelbis (<a href="/courses/biol110/logout" alt="logout" title="logout">logout</a>)</div>
+        <div class="bar-div"></div><a href="http://psu.edu" alt="PSU" title="PSU" target="_blank"><div class="bar-psu-shield"></div></a><div class="bar-div"></div></div><!-- end #branding-bar-content-->
+    <div class="bar-btn close" alt="Close" title="Close"></div></div>
+    <div id="bar-end-left-2"></div>
+</div><script type="text/javascript">
+<!--//--><![CDATA[//><!--
+if (Drupal.jsEnabled) {
+  $(document).ready(function () {
+  	$('a').Tooltip({
+  		delay: 0,
+  		track: true,
+  		showURL: false,
+  		showBody: "; "
+  	});
+  }); 
+}  
+//--><!]]>
+</script>
+</body>
+</html>
