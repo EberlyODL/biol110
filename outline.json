@@ -5,7 +5,7 @@
     "title": "Lessons",
     "parent": "",
     "id": "f8c58cb6-ccb0-11e3-9da1-0050569d0017",
-    "order": "-10",
+    "order": "0",
     "location": "content/f8c58cb6-ccb0-11e3-9da1-0050569d0017.html"
   },
   {
@@ -606,9 +606,9 @@
     "uid": "1",
     "type": "page",
     "title": "Getting Started",
-    "parent": "f8c2779c-ccb0-11e3-9da1-0050569d0017",
+    "parent": "",
     "id": "f8c87fa2-ccb0-11e3-9da1-0050569d0017",
-    "order": "-14",
+    "order": "2",
     "location": "content/f8c87fa2-ccb0-11e3-9da1-0050569d0017.html"
   },
   {
@@ -858,9 +858,9 @@
     "uid": "1",
     "type": "page",
     "title": "Lab Modules",
-    "parent": "f8c2779c-ccb0-11e3-9da1-0050569d0017",
+    "parent": "",
     "id": "f8d1e07e-ccb0-11e3-9da1-0050569d0017",
-    "order": "-12",
+    "order": "1",
     "location": "content/f8d1e07e-ccb0-11e3-9da1-0050569d0017.html"
   },
   {
